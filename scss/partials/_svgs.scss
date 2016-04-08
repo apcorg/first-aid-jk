@@ -1,21 +1,21 @@
 #svgContainer { 
 	z-index: -10;
 	position:absolute;
-	left: 100px;
+	// left: 100px;
 	top: 20px;
 }
 
 #outer{
 	height: 100vh;
 	top: 20px;
-	left: 100px;
+	// left: 100px;
 	position: relative;
 }
 
 .item {
  	position: absolute;
-	width: 7em;
- 	height: 7em;
+	width: 6em;
+ 	height: 8em;
  	figure {
  		figcaption {
  			background-color: $gray-lighter;
@@ -33,6 +33,13 @@
   .left-#{$h} {
     left: ($h/12)*100 + %;
   }
+}
+$i: 1.5;
+@while $i < 12 {
+  .left-#{str-replace(to-string($i),'.','-')} {
+    left: ($i/12)*100 + %;
+  }
+  $i: $i + 1;
 }
 // Top
 @for $h from 1 to 12 {

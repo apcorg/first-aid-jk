@@ -101,10 +101,10 @@ function connectAll() {
     connectElements($("#svg1"), $("#path-01-02"), $("#f-01"),   $("#f-02"), "leftFromBelow");
     connectElements($("#svg1"), $("#path-02-03"), $("#f-02"),   $("#f-03"), 'rightFromBelow');
     connectElements($("#svg1"), $("#path-03-04"), $("#f-03"),   $("#f-04"), "belowFromBelow");
+    connectElements($("#svg1"), $("#path-04-05"), $("#f-04"),   $("#f-05"), "rightFromBelow");
     // connectElements($("#svg1"), $("#path-02-06"), $("#f02"),   $("#f06"), false);
     // connectElements($("#svg1"), $("#path-08-09"), $("#f08"),   $("#f09"), 'leftFromBelow');
     // connectElements($("#svg1"), $("#path-06-08"), $("#f06"),   $("#f08"), "leftFromBelow");
-    // connectElements($("#svg1"), $("#path-04-05"), $("#f04"),   $("#f05"), "rightFromBelow");
     // connectElements($("#svg1"), $("#path-07-05"), $("#f07"),   $("#f05"), "leftFromBelow");
     // connectElements($("#svg1"), $("#path-03-07"), $("#f03"),   $("#f07"), "belowFromBelow");
     // connectElements($("#svg1"), $("#path-07-10"), $("#f07"),   $("#f10"), "belowFromBelow");
