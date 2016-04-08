@@ -1,0 +1,29 @@
+<header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title[page.lang] }}</a>
+
+    <nav class="site-nav">
+
+      <div class="trigger">
+        {% assign pages=site.pages | where:"lang", page.lang %}
+        {% for my_page in pages %}
+          {% if my_page.title %}
+          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+<div class="wrapper" style="text-align: right; line-height: 2em">
+  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+  {% for post in posts %} <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a> {% endfor %}
+
+  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+  {% for page in pages %} <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
+</div>

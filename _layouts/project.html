@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include internal_header.html %}
+		<div class="project">
+
+		  <div class="row featured-img">
+		  	<img src="/../assets/img/{{page.featured_image}}" alt="">
+		  </div>
+
+		  <div class="row project-content">
+		  	{% if page.external_link != nil %}
+		    <h4 class="text-center"><a href="{{page.external_link}}" target="_blank">{{ page.long_name }}</a> [{{ page.type }}]</h4>
+		    {% else %}
+		    <h4 class="text-center">{{ page.long_name }} [{{ page.type }}]</h4>
+		    {% endif %}
+		    <h5 class="pv-14 udl">About this project</h5>
+		    <p class="m-0 text-justify">{{page.about}}</p>
+		    {% if page.external_link != nil %}
+		    <p class="m-0 pt-7">Link: <a href="{{page.external_link}}" target="_blank">{{page.external_link}}</a></p>
+		    {% endif %}
+		    <h5 class="pv-14 udl">My Role</h5>
+		    <ul class="project-ul">
+		    	{% for role_li in page.role %}
+		    	<li class="text-justify">{{role_li}}</li>
+		    	{% endfor %}
+		    </ul>
+		    <h5 class="pv-14 udl">Technology</h5>
+		    <ul class="project-ul">
+		    	{% for role_li in page.technology %}
+		    	<li>{{role_li}}</li>
+		    	{% endfor %}
+		    </ul>
+		  </div>
+		  {{ content }}
+		</div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
+

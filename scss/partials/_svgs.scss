@@ -1,0 +1,42 @@
+#svgContainer { 
+	z-index: -10;
+	position:absolute;
+	left: 100px;
+	top: 20px;
+}
+
+#outer{
+	height: 100vh;
+	top: 20px;
+	left: 100px;
+	position: relative;
+}
+
+.item {
+ 	position: absolute;
+	width: 7em;
+ 	height: 7em;
+ 	figure {
+ 		figcaption {
+ 			background-color: $gray-lighter;
+ 			border-radius: 5px;
+ 			line-height: 1;
+ 			padding: rem-calc(7);
+ 			color: black;
+ 			text-align: center;
+ 		}
+ 	}
+}
+
+// Left
+@for $h from 1 to 12 {
+  .left-#{$h} {
+    left: ($h/12)*100 + %;
+  }
+}
+// Top
+@for $h from 1 to 12 {
+  .top-#{$h} {
+    top: ($h/12)*100 + %;
+  }
+}

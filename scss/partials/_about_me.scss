@@ -1,0 +1,82 @@
+#about-me {
+  background-color: $gray-lighter;
+  .row {
+    .about {
+      background-color: #fff;
+      border: 1px solid $custom-black;
+      .my-desc {
+        text-align: justify;
+        padding: 7px;
+        span {
+          font-size: 1em;
+          font-weight: 200;
+          font-family: 'Muli';
+          &.custom-strong {
+            font-weight: 400;
+          }
+        }
+      }    
+    }
+  }
+  .skills {
+    margin: 0;
+    padding: 0;
+    .my-social {
+      div {
+        height: 63px;
+      }
+      .github {
+        background-color: #1BBC9B;
+      }
+      .linkedin {
+        background-color: #007bb6;
+      }
+      .twitter {
+        background-color: #55acee;
+      }
+      .medium {
+        background-color: black;
+      }
+    }
+    .row {
+      .my-stickers {
+        margin: 0;
+        padding: 0;
+        .row { 
+          margin: 0;
+          padding: 0;
+          .small-6 {
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: flex; /* add */
+            justify-content: center; /* add to align horizontal */
+            align-items: center; /* add to align vertical */
+            &.rails {
+              background-color: #A62C39;
+            }
+            &.sass {
+              background-color: white;
+            }
+            &.js {
+              background-color: #F0DB4F;
+            }
+            &.resp {
+              background-color: #F64747;
+            }  
+          }
+        }
+      }
+      .small-6 {
+        ul {
+          list-style-type: none;
+          padding-left: 21px;
+          li {
+            padding-top: 7px;
+          }
+        }
+      }
+    }
+  }
+}
