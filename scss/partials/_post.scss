@@ -1,0 +1,15 @@
+.post-item {
+	text-align: justify;
+	h4 {
+		color: $orange;
+		font-weight: bold;
+		border-bottom: 1px solid $sky;
+	}
+	h5 {
+		color: $red;
+		font-weight: bold;
+	}
+	ul li {
+		padding-bottom: rem-calc(7px);
+	}
+}

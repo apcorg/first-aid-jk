@@ -8,7 +8,11 @@
     {% include header.html %}
 
     <div class="page-content">
-      <div class="wrapper">
+      <div class="wrapper post-item">
+        <h4 class="mb-14">{{ page.description }}</h4 class="mb-14">
+        <div class="mb-14 text-center">
+          <img src="/assets/img/{{page.icon}}" alt="">
+        </div>
         {{ content }}
       </div>
     </div>

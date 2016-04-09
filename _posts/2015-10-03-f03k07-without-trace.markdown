@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Without trace"
-ref: f-04
+title:  "I need to use a computer without leaving a trace"
+ref: f-03
 lang: en
-description: "I need to send emails that cannot be tracked back to me"
-code: f-04
+description: "Kit #7. I need to use a computer without leaving a trace"
+code: f-03
 icon: icon_f-01.png
-top: 
-left: left-8-5
+top: top-2
+left: "left-6-5 wide"
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

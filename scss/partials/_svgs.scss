@@ -12,10 +12,20 @@
 	position: relative;
 }
 
+#svg1 {
+  height: 200vh;
+}
+
 .item {
  	position: absolute;
 	width: 6em;
- 	height: 8em;
+ 	height: 6em;
+  &.wide {
+    figcaption {
+      width: 160%;
+      margin-left: -25%;
+    }
+  }
  	figure {
  		figcaption {
  			background-color: $gray-lighter;
@@ -24,6 +34,13 @@
  			padding: rem-calc(7);
  			color: black;
  			text-align: center;
+ 			cursor: pointer;
+ 			&:hover {
+				background-color: $custom-black;
+	 			a {
+					color: white;
+	 			}
+ 			}
  		}
  	}
 }
@@ -46,4 +63,11 @@ $i: 1.5;
   .top-#{$h} {
     top: ($h/12)*100 + %;
   }
+}
+$i: 1.5;
+@while $i < 12 {
+  .top-#{str-replace(to-string($i),'.','-')} {
+    top: ($i/12)*100 + %;
+  }
+  $i: $i + 1;
 }

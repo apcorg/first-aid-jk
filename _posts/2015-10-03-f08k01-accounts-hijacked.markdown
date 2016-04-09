@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Without trace"
-ref: f-03
+title:  "My email, Facebook & Co. accounts were hijacked."
+ref: f-08
 lang: en
-description: "I need to use a computer without leaving a trace"
-code: f-03
+description: "Kit #1. My email, Facebook or Twitter account was hijacked."
+code: f-08
 icon: icon_f-01.png
-top: top-3
-left: left-6-5
+top: top-6-5
+left: left-1
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

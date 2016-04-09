@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Sensitive data"
+title:  "I need to carry around sensitive data in a secure manner"
 ref: f-02
 lang: en
-description: "I need to carry around sensitive data in a secure manner"
+description: "Kit #4. I need to carry around sensitive data in a secure manner"
 code: f-02
 icon: icon_f-01.png
 top:
