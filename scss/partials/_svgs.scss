@@ -13,7 +13,7 @@
 }
 
 #svg1 {
-  height: 200vh;
+  height: 100vh;
 }
 
 .item {
@@ -27,21 +27,20 @@
     }
   }
  	figure {
- 		figcaption {
- 			background-color: $gray-lighter;
- 			border-radius: 5px;
- 			line-height: 1;
- 			padding: rem-calc(7);
- 			color: black;
- 			text-align: center;
- 			cursor: pointer;
- 			&:hover {
-				background-color: $custom-black;
-	 			a {
-					color: white;
-	 			}
- 			}
- 		}
+    a {
+      &:hover figcaption {
+  			background-color: $custom-black;
+  			color: white;
+      }
+      figcaption {
+        background-color: $gray-lighter;
+        border-radius: 5px;
+        line-height: 1.1;
+        padding: rem-calc(7);
+        text-align: center;
+        cursor: pointer;
+   		}
+    }
  	}
 }
 

@@ -104,12 +104,14 @@ lang: en
     {% for post in posts %}
       <div id="{{ post.code}}" class="item {{post.top}} {{post.left}}">
         <figure>
-          <a class="neutral tiny" href="{{ post.url | prepend: site.baseurl }}">
+          <a class="neutral" href="{{ post.url | prepend: site.baseurl }}">
             <img src="assets/img/{{post.icon}}" alt="">
           </a>
-        <figcaption>
-          <a class="neutral tiny" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </figcaption>
+        <a class="neutral" href="{{ post.url | prepend: site.baseurl }}">
+          <figcaption class="tiny">
+            {{ post.title }}
+          </figcaption>
+        </a>
         </figure>
       </div>
     {% endfor %}
