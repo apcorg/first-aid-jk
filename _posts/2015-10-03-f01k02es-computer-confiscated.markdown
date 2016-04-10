@@ -9,7 +9,9 @@ icon: icon_f-01.png
 top: top-1-5
 left: "left-1 wide"
 ---
+
 #####My computer might get lost, stolen or confiscated. Is there anything I can do to minimise the risk that its content will compromise me or others?
+
 *Computers often get lost or stolen and can also get confiscated by authorities who are after your data. Your devices are vaults full of sensitive data. If this data is discovered by someone untrusted, it can do a good deal of damage. For example, if you manage your emails using an email client such as Thunderbird or Outlook it’s likely that the programme contains private information, such as your friends’ contacts and sensitive messages. If your computer is lost, stolen or confiscated, the new owners gain access to all this information. What can be even more damaging is if they start acting like impostors, writing to your contacts pretending that they are you.*
 
 **What you should do**
