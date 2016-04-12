@@ -5,7 +5,7 @@ ref: f-10
 lang: en
 description: "Kit #11. I need to send emails that only the recipient can read"
 code: f-10
-icon: icon_f-01.png
+icon: icon_f10k11.png
 top: top-6-5
 left: left-10
 ---

@@ -73,7 +73,7 @@ function connectElements(svg, path, startElem, endElem, connect=false) {
     // calculate path's end (x,y) coords
     // we want the x coordinate to visually result in the element's mid point
     if (connect=='leftFromBelow' | connect=='rightFromBelow') {
-      var startX = startCoord.left - svgLeft;    // x = left offset + 0.5*width - svg's left offset
+      var startX = startCoord.left - svgLeft + 1;    // x = left offset + 0.5*width - svg's left offset
       var startY = startCoord.top  + 0.5*startElem.outerHeight() - svgTop;        // y = top offset + height - svg's top offset
       var endX = endCoord.left + 0.5*endElem.outerWidth() - svgLeft;
       var endY = endCoord.top  - svgTop;
@@ -112,9 +112,9 @@ function connectAll() {
     connectElements($("#svg1"), $("#path-09-13"), $("#f-09"),   $("#f-13"), "rightFromBelow");
     connectElements($("#svg1"), $("#path-11-12"), $("#f-11"),   $("#f-12"), "leftFromBelow");
     connectElements($("#svg1"), $("#path-12-13"), $("#f-13"),   $("#f-12"), "leftFromBelow");
-    connectElements($("#svg1"), $("#path-05-10"), $("#f-05"),   $("#f-10"), "leftFromBelow");
+    connectElements($("#svg1"), $("#path-05-10"), $("#f-05"),   $("#f-10"), "belowFromBelow");
 
-    // $("#svg1").attr("height", $("#svg1").height()+150);
+    $("#svg1").attr("height", $("#svg1").height()+5);
 }
 
 $(document).ready(function() {

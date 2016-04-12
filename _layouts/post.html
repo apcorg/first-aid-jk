@@ -10,10 +10,18 @@
     <div class="page-content">
       <div class="wrapper post-item">
         <h4 class="mb-14">{{ page.description }}</h4 class="mb-14">
-        <div class="mb-14 text-center">
+        <div class="mb-14 featured-image text-center">
           <img src="{{site.baseurl}}/assets/img/{{page.icon}}" alt="">
         </div>
         {{ content }}
+        {% case page.lang %}
+          {% when 'en' %}
+          <h6><a href="{{site.baseurl}}/"><< Go back to Kit</a></h6>
+          {% when 'es' %}
+          <h6><a href="{{site.baseurl}}/index_es.html"><< Regresar al Kit</a></h6>
+          {% else %}
+          <h6><a href="{{site.baseurl}}/"><< Go back to Kit</a></h6>
+        {% endcase %}
       </div>
     </div>
 

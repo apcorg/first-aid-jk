@@ -5,7 +5,7 @@ ref: f-04
 lang: en
 description: "Kit #10. I need to send emails that cannot be tracked back to me"
 code: f-04
-icon: icon_f-01.png
+icon: icon_f04k10.png
 top: 
 left: "left-8 wide"
 ---

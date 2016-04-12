@@ -5,7 +5,7 @@ ref: f-02
 lang: en
 description: "Kit #4. I need to carry around sensitive data in a secure manner"
 code: f-02
-icon: icon_f-01.png
+icon: icon_f02k04.png
 top:
 left: left-2-5
 ---

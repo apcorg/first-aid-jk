@@ -5,7 +5,7 @@ ref: f-08
 lang: en
 description: "Kit #1. My email, Facebook or Twitter account was hijacked."
 code: f-08
-icon: icon_f-01.png
+icon: icon_f08k01.png
 top: top-6-5
 left: left-1
 ---

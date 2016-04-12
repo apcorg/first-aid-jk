@@ -1,14 +1,25 @@
----
-layout: default
----
-<div class="post">
+<!DOCTYPE html>
+<html>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
+  {% include head.html %}
 
-  <article class="post-content">
-    {{ content }}
-  </article>
+  <body>
 
-</div>
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper post-item">
+        <h4 class="mb-14">{{ page.description }}</h4 class="mb-14">
+        <div class="mb-14 featured-image text-center">
+          <img src="{{site.baseurl}}/assets/img/{{page.icon}}" alt="">
+        </div>
+        <h5>{{page.title}}</h5>
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

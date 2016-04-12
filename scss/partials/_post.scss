@@ -12,4 +12,9 @@
 	ul li {
 		padding-bottom: rem-calc(7px);
 	}
+	.featured-image {
+		img {
+			max-width: 200px;
+		}
+	}
 }

@@ -5,8 +5,8 @@ ref: f-04
 lang: en
 description: "Kit #9. I need to chat in a secure manner"
 code: f-07
-icon: icon_f-01.png
-top: top-4
+icon: icon_f07k09.png
+top: top-4-5
 left: left-8-5
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.

@@ -5,7 +5,7 @@ ref: f-12
 lang: en
 description: "Kit #13. I am facing online abuse"
 code: f-12
-icon: icon_f-01.png
+icon: icon_f12k13.png
 top: top-9-5
 left: left-5
 ---

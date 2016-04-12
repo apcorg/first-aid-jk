@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Someone monitors all I do on my computern"
+title:  "Someone monitors all I do on my computer"
 ref: f-13
 lang: en
 description: "Kit #8. Someone monitors everything I do on my computer"
 code: f-13
-icon: icon_f-01.png
+icon: icon_f13k08.png
 top: top-9-5
 left: left-7
 ---

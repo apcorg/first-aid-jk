@@ -5,9 +5,9 @@ ref: f01k02
 lang: en
 description: "Kit #2. If the content of my computer gets confiscated, I am afraid it will compromise my safety"
 code: f-01
-icon: icon_f-01.png
+icon: icon_f01k02.png
 top: top-1-5
-left: "left-1 wide"
+left: "left-1"
 ---
 
 ##### My computer might get lost, stolen or confiscated. Is there anything I can do to minimise the risk that its content will compromise me or others?
