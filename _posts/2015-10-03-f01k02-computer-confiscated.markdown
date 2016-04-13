@@ -7,7 +7,7 @@ description: "Kit #2. If the content of my computer gets confiscated, I am afrai
 code: f-01
 icon: icon_f01k02.png
 top: top-1-5
-left: "left-1"
+left: "left-1 wide"
 ---
 
 ##### My computer might get lost, stolen or confiscated. Is there anything I can do to minimise the risk that its content will compromise me or others?

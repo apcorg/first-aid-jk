@@ -32,8 +32,8 @@ function drawPath(svg, path, startX, startY, endX, endY, connect) {
 
     if (connect=='leftFromBelow' | connect=='rightFromBelow' ) {
         path.attr("d",  "M"  + startX + " " + (startY) +
-                        " H" + (endX - delta*signum(deltaX)) + 
-                        " A" + delta + " " +  delta + " 0 0 " + arc2 + " " + endX + " " + (startY + delta) +
+                        " H" + (endX - 2*delta*signum(deltaX)) + 
+                        " A" + 2*delta + " " +  2*delta + " 0 0 " + arc2 + " " + endX + " " + (startY + 2*delta) +
                         " V" + endY );
     } else if (connect=='belowFromBelow')  {
       path.attr("d",  "M"  + startX + " " + startY +
