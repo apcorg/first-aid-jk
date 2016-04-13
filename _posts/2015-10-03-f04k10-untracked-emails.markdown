@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "I need to send emails that cannot be tracked back to me"
-ref: f-04
+ref: f04k10
 lang: en
 description: "Kit #10. I need to send emails that cannot be tracked back to me"
 code: f-04
@@ -9,22 +9,27 @@ icon: icon_f04k10.png
 top: 
 left: "left-8 wide"
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+##### I have to send emails that, if leaked, would put me or my colleagues at risk. How do I send emails that cannot be tracked back to me?
 
-Jekyll also offers powerful support for code snippets:
+*You need to send anonymous messages that you don’t want anyone to be able to link back to you. You might need to work anonymously. You need to take precautions not to expose your and others’ identities in case some messages are intercepted or one of your colleagues’ computers is confiscated.*
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+**What you should do**
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+There are many points along the message’s way from you to the recipient that can expose your identity. Nevertheless, you can take some of the following precautions that make it very difficult to link the message back to you:
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
++ Create an email account with a service that is openly committed to user privacy and does not store or disclose user or message details. Every email message travels through the internet with metadata to ensure its recipient receives it. Think of stamps of all the post offices through which a package travels. Some email providers deliberately delete message details about previous servers through which a given email has travelled. This is what you need. If your email provider is based in London, all that can be found from your message about your real physical location is that your messages travelled through London. Note that this is effective only if the email is intercepted after it reaches your email provider. Riseup.net is such an email provider.
++ If your use is temporary, use a web-based anonymous remailer service but note that you should not have extended correspondence through an anonymous remailer. In fact, not all of them will even deliver messages back to you. Additionally note that even if you trust the service, you should access the remailer website with Tor Browser to anonymise your IP address.
++ With an email client configured to use an email address that cannot be linked to your identity, use The Onion Router (Tor) application. If properly configured, it will pass your email communication through a chain of anonymising servers that will obfuscate the message’s route between you and your service provider.
++ Use an email client as a portable application to send and receive your emails from public computers. For example, you could install the email client Thunderbird on a USB drive. You can then write messages on your (or any other) computer, go to a public computer, plug your memory stick into a computer, open Thunderbird, and send your messages. Sending messages from a public computer has the advantage that the computer and IP address are not associated with you. It is advised in case of using public computers to use VPN or Tor before starting your web activity and communication. In all cases there are physical clues that can identify you even with a public computer such as CCTV footage or computer user logs at libraries.
+
+**Keep in mind**
+
+While using public computers can be useful to maintain your annonymity, you have generally no control over what kind of software, malware, keyloggers or remote administration applications run on such a computer. Have these possible threats in mind when using a public computer.
+
+**Where to find more help**
+
++ [Read about Riseup’s](https://securityinabox.org/en/guide/riseup/internet){:target="_blank"} secure email and internet services.
++ Learn about [using the Tor Browser](https://securityinabox.org/en/guide/torbrowser/windows){:target="_blank"}. 
++ Learn about [Portable Thunderbird](https://securityinabox.org/en/guide/thunderbird/windows){:target="_blank"}.
++ [Tips on responding to suspected email surveillance](https://securityinabox.org/en/chapter_7_2){:target="_blank"}.

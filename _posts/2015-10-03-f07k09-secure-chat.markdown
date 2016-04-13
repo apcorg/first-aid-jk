@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "I need to chat in a secure manner"
-ref: f-04
+ref: f07k09
 lang: en
 description: "Kit #9. I need to chat in a secure manner"
 code: f-07
@@ -9,4 +9,32 @@ icon: icon_f07k09.png
 top: top-4-5
 left: left-8-5
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+##### I need to chat with someone while no one else is listening or monitoring our conversation. I can only share information with them if I know that no one else will find it out.
+
+*You are preparing an online meeting with one or more colleagues and you need to share confidential information with them. You need to be sure that no one can actively monitor or passively collect the content or any other information related to your conversation.*
+
+Chatting tools are like the rest of the communication tools we use on daily basis: they could be monitored and have different levels of risks. When using chatting applications, be aware that they are either:
+
++ End-to-end encrypted, which means that only you and the receiver can read the messages and no one else can.
++ Encrypted to the server, which means your connections to the service provider are secure but requires you to trust your service provider (Microsoft in the case of Skype, Google in the case of Hangouts).
++ Not encrypted at all, which means that anyone watching your communication could see your messages in plain text.
+
+You must also trust the application. The only way to judge the security of an application and verify its privacy claims is to review its code in an open and transparent manner. Applications that provide their code for community review, and comply with [several other criteria](http://www.gnu.org/philosophy/free-sw.en.html){:target="_blank"}, are classified as free/libre and open source software (FLOSS). FLOSS applications are generally trustworthy.
+
+Most popular applications don’t prioritise user privacy and security. While your contacts may be using these popular services, we recommend that you stop using Viber, WhatsApp, Facebook Chat, Google Hangouts and Telegram because they don’t implement security measures transparently.
+
+**What you should do**
+
+Learn about the many options for secure chat applications from the list of resources below and choose the best solution for your needs. We recommend FLOSS applications that use end-to-end encryption.
+Start by learning which applications and tools implement secure protocols and which do not from the [Secure Messaging Scorecard](https://www.eff.org/secure-messaging-scorecard){:target="_blank"}. 
+
+**Where to find more help**
+
++ [Use Signal for Android](https://info.securityinabox.org/default/textsecure_main){:target="_blank"}. 
+
++ [Use Signal for iPhone](https://ssd.eff.org/en/module/how-use-signal-–-private-messenger){:target="_blank"}.
+ 
++ [Use Jitsi (xmpp) or Jitsi Meet](https://info.securityinabox.org/default/jitsi){:target="_blank"}.
+ 
++ [Use Cryptocat in your web browser](https://crypto.cat/){:target="_blank"} (*Note from the developer, 19 February 2016: I am temporarily suspending the Cryptocat service until the complete software rewrite that I'm working on is released. I promise you that this suspension is strictly temporary.*).
