@@ -27,7 +27,7 @@ Here are some strategies you can use to respond and protect yourself. However, t
 
 + **Install a firewall, secure your Wi-Fi and turn off Bluetooth.** Wi-Fi hotspots and Bluetooth connections can reveal your location and make it easier for people to hack your phone. When using public Wi-Fi, your line of defence is your firewall. A firewall will defend you from untrusted connections from the internet and local networks, which could let hackers and viruses access your computer. A firewall is the first programme on a computer that sees incoming data from the internet and the last programme to handle outgoing information.
  1. For your home connection, make sure the connection is protected by WPA2 security. WEP (another encryption standard used for securing Wi-Fi networks) is child's play for hackers.
- 2. [Choose a very strong password](({{ site.url }}/f06k03-passwords-safe/)) for the Wi-Fi connection.
+ 2. [Choose a very strong password](({{ site.baseurl }}/f06k03-passwords-safe/)) for the Wi-Fi connection.
  3. Install a firewall.
  4. Switch off your Bluetooth connection.
 + **Get an alternative SIM card.** If a stalker can obtain your mobile number, they may harass you through SMS messages and phone calls. They may use it in combination with GPS to reveal that they know your location. Consider an alternate SIM card for private calls.
@@ -41,7 +41,7 @@ Here are some strategies you can use to respond and protect yourself. However, t
  1. On an iPhone, go to Settings > Privacy > Location, and disable the option of “Camera”.
  2. On Android, go to the camera application. Under settings, turn “Location Tag” to “Off”.
 + **Protect your phone with a passphrase.** If your phone is not password protected, anyone who gets their hands on it can access your information. Password hacking is common, and the more a stalker knows about you, the more likely they are to guess your passwords. Passphrase protection will keep your data safer if you lose your phone or someone tries to use it without your permission.
- 1. For more information refer to [Kit #3: I need to keep my passphrases safe]({{ site.url }}/f06k03-passwords-safe/).
+ 1. For more information refer to [Kit #3: I need to keep my passphrases safe]({{ site.baseurl }}/f06k03-passwords-safe/).
  2. Reset your passphrases regularly.
 + **Protect your computer and phone from spyware and malware.** Malicious applications may contain spyware. The more capabilities your smartphone has, like GPS, the more those extras can be used to spy on you. Malware and spyware are used to track, record and watch what you do online.
  1. Install *trusted* anti-malware such as Spybot.
@@ -51,11 +51,11 @@ Here are some strategies you can use to respond and protect yourself. However, t
  3. Use a profile photo that doesn’t identify you. Choosing images that also protect your location can keep you from being recognised or found.
  4. Choose a screen name that isn't personal. Many people have screen names that do not give away identifying characteristics. You might want to consider a user name that is gender-neutral.
  5. Check your privacy settings. Services such as Facebook change their privacy policy all the time, so check in regularly to make sure you are sharing the information you want to share only with people you trust. Some sites have options for you to test how your profile is being viewed by others. Learn more about [social networking privacy settings].
- 6. Refer to [Kit #1. My email, Facebook or Twitter account was hijacked]({{ site.url }}/f08k01-accounts-hijacked/).
+ 6. Refer to [Kit #1. My email, Facebook or Twitter account was hijacked]({{ site.baseurl }}/f08k01-accounts-hijacked/).
 + **Use a secure chat option that is not incorporated into mainstream social networking services,** preferably one that encrypts conversations. Many social networking sites offer chat options. This is one of the most insecure ways to communicate online. Online acquaintances can stalk you in chatrooms.
  1. Use Jitsi instead of Skype because it is more trusted.
  2. For your mobile phone consider Signal or Telegram. Be aware that both you and the person you are talking to should be using the same encrypted service.
- 3. Refer to Kit #9. [I need to chat in a secure manner.](({{ site.url }}/f07k09-secure-chat/))
+ 3. Refer to Kit #9. [I need to chat in a secure manner.](({{ site.baseurl }}/f07k09-secure-chat/))
 + **Switch off your webcam** and place a sticker or piece of paper over the camera on your laptop or mobile phone. Stalkers use spyware to access webcams and film people without their knowledge or consent.
 
 You can also denounce stalkers and seek redress. [Here](https://www.takebackthetech.net/be-safe/cyberstalking-strategies){:target="_blank"} are some suggestions how you can do this.

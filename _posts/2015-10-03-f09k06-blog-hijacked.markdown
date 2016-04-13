@@ -20,7 +20,7 @@ You might need to reach out to your website developer or a technical expert if y
 
 + If your site was vandalised, it’s likely because someone gained access as a privileged user through a weakness in your site’s security. You should: 
  1. Log in and revoke access from untrusted users. 
- 2. If your log-in doesn’t work and your site is hosted with a third-party service, read [Kit #1. My email, Facebook or Twitter account was hijacked]({{ site.url }}/f08k01-accounts-hijacked/), and follow similar steps to try to regain access to your site’s administration interface. 
+ 2. If your log-in doesn’t work and your site is hosted with a third-party service, read [Kit #1. My email, Facebook or Twitter account was hijacked]({{ site.baseurl }}/f08k01-accounts-hijacked/), and follow similar steps to try to regain access to your site’s administration interface. 
  3. If your log-in doesn’t work and you host your own site, you should be able to regain access at the database/server level, depending on your site’s platform. Because each platform and server set-up are so specific, you may need to turn to a technologist or support person at your web host for help. 
  4. Restore the site with a recent backup. 
  5. Without a backup or tracked content revision of any kind, you may face data loss. 
@@ -38,7 +38,7 @@ You might need to reach out to your website developer or a technical expert if y
  1. Set up mirrors. Mirroring a website means having copies of your website on different servers. Mirrors require some set-up and are usually precautionary measures in cases such as technical problems, censorship or targeted hacking.
  2. Raise awareness about the censorship. Use social media to alert your users and freedom of expression activists to the site’s censorship and give them a new URL with which they can still access the site.
  3. Engage in campaigning and policy advocacy to lift the censorship. 
- 4. Educate your users about circumventing censorship. [Kit #12. I need to access a blocked website anonymously.]({{ site.url }}/f05k12-blocked-website/)
+ 4. Educate your users about circumventing censorship. [Kit #12. I need to access a blocked website anonymously.]({{ site.baseurl }}/f05k12-blocked-website/)
 
 + You or a technical expert needs to inspect the server log files to see what has happened, otherwise the adversary may have uploaded and hidden a malicious "shell" file on your website, dumped your database, or created a system user on your server. Simply recovering the website is not enough if the server has been compromised.
 

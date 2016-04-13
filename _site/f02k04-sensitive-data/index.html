@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>I need to carry around sensitive data in a secure manner</title>
-  <meta name="description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa...">
+  <meta name="description" content="I have sensitive data that I need to physically transport between two or more places. How do I make sure it stays safe?">
 
 	<!-- WebFonts -->
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -59,11 +59,38 @@
         <div class="mb-14 featured-image text-center">
           <img src="/first-aid-jk/assets/img/icon_f02k04.png" alt="">
         </div>
-        <p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+        <h5 id="i-have-sensitive-data-that-i-need-to-physically-transport-between-two-or-more-places-how-do-i-make-sure-it-stays-safe">I have sensitive data that I need to physically transport between two or more places. How do I make sure it stays safe?</h5>
 
-<p>To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention <code>YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<p><em>You are about to travel or move around between different locations in your city for an important meeting, likely without internet access. You need to bring with you sensitive data that you aren’t comfortable uploading to a server or other online space.</em></p>
 
-<p>Jekyll also offers powerful support for code snippets</p>
+<p><strong>What you should do</strong></p>
+
+<p>In order to move around with sensitive data, you will need to not only encrypt the data but obscure its very existence.</p>
+
+<ul>
+  <li>Obscure the data physically. Consider transporting files on a small device instead of on your laptop. SD cards and USB drives can store a huge amount of data in a very small device. These devices can be hidden (and lost!) just about anywhere. Insert the SD card into an otherwise harmless electronic device if you or your bags must pass through a metal detector or x-ray, such as an empty (clean) mobile phone or camera.</li>
+  <li>Once you’ve decided how you’re going to transport the data, encrypt the data. TrueCrypt [<a href="https://www.apc.org/en/irhr/digital-security-first-aid-kit-4#fn691571595569cf5eec1189" target="_blank">1</a>] or GPGTools can encrypt any directory or file (see <a href="/first-aid-jk/f01k02-computer-confiscated/">Kit #2</a>. If the content of my computer gets confiscated, I am afraid it will compromise my safety).</li>
+  <li>Alternatively, encrypt the entire drive. Depending on what device or volume you will store your sensitive data in, consider encrypting everything, not just the sensitive files. If you do this, keep in mind that it may be more obvious that you are hiding something.</li>
+  <li>Obscure the data digitally. If you choose to secure your data in an encrypted volume with TrueCrypt, you can also make the volume “hidden”, which can help you avoid the possibility of an adversary finding your files and asking or forcing you to reveal the decryption passphrase. Or, you might simply rename the encrypted file to something unassuming like “My Music” and place it within a typical directory structure.</li>
+</ul>
+
+<p><strong>Keep in mind</strong></p>
+
+<ul>
+  <li>The way USB drives and SD cards store data in solid state means they are very reliable but also makes wiping data off of them difficult. Sometimes the only safe way to destroy the data to avoid eventual recovery is to literally destroy the device.</li>
+  <li>Note that passphrase-protection of a directory or file is not encryption and is very easy to circumvent.</li>
+  <li>If the device containing the sensitive data is discovered and accessed, an unusual operating system such as GNU/Linux or the immediate appearance of a full-disk decryption prompt may in and of itself reveal that you are hiding something. Sometimes it is best to use the hide-in-plain-sight tactic.</li>
+</ul>
+
+<p><strong>Where to find more help</strong></p>
+
+<ul>
+  <li>Use a <a href="https://tails.boum.org/doc/first_steps/persistence/index.en.html" target="_blank">persistent volume.</a></li>
+  <li>Learn how to create hidden volumes with TrueCrypt.</li>
+</ul>
+
+<p>[1] Note: In September 2015, <a href="https://thehackernews.com/2015/09/truecrypt-encryption-software.html" target="_blank">critical security flaws</a> were reported in TrueCrypt, the open source software for file and disk encryption. As a result, we are reviewing our advice and we support <a href="https://securityinabox.org/en/blog/08-10-2015/truecrypts-security-flaws-what-now" target="_blank">these recommendations</a> for alternative tools for secure file storage.</p>
+
 
         
           <h6><a href="/first-aid-jk/"><< Go back to Kit</a></h6>

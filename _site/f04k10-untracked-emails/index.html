@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>I need to send emails that cannot be tracked back to me</title>
-  <meta name="description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa...">
+  <meta name="description" content="I have to send emails that, if leaked, would put me or my colleagues at risk. How do I send emails that cannot be tracked back to me?">
 
 	<!-- WebFonts -->
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -47,7 +47,7 @@
 
 <div class="wrapper" style="text-align: right; line-height: 2em">
   
-   <a href="/first-aid-jk/f11k05-passwords-saf" class="en">en</a>  <a href="/first-aid-jk/f07k09-secure-chat" class="en">en</a>  <a href="/first-aid-jk/f06k03-passwords-safe" class="en">en</a>  <a href="/first-aid-jk/f05-blocked-website" class="en">en</a>  <a href="/first-aid-jk/f04k10-untracked-emails" class="en">en</a> 
+   <a href="/first-aid-jk/f04k10-untracked-emails" class="en">en</a> 
 
   
   
@@ -59,20 +59,33 @@
         <div class="mb-14 featured-image text-center">
           <img src="/first-aid-jk/assets/img/icon_f04k10.png" alt="">
         </div>
-        <p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+        <h5 id="i-have-to-send-emails-that-if-leaked-would-put-me-or-my-colleagues-at-risk-how-do-i-send-emails-that-cannot-be-tracked-back-to-me">I have to send emails that, if leaked, would put me or my colleagues at risk. How do I send emails that cannot be tracked back to me?</h5>
 
-<p>To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention <code>YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<p><em>You need to send anonymous messages that you don’t want anyone to be able to link back to you. You might need to work anonymously. You need to take precautions not to expose your and others’ identities in case some messages are intercepted or one of your colleagues’ computers is confiscated.</em></p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<p><strong>What you should do</strong></p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">&quot;Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">&quot;</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">&#39;Tom&#39;</span><span class="p">)</span>
-<span class="c1">#=&gt; prints &#39;Hi, Tom&#39; to STDOUT.</span></code></pre></div>
+<p>There are many points along the message’s way from you to the recipient that can expose your identity. Nevertheless, you can take some of the following precautions that make it very difficult to link the message back to you:</p>
 
-<p>Check out the <a href="http://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+<ul>
+  <li>Create an email account with a service that is openly committed to user privacy and does not store or disclose user or message details. Every email message travels through the internet with metadata to ensure its recipient receives it. Think of stamps of all the post offices through which a package travels. Some email providers deliberately delete message details about previous servers through which a given email has travelled. This is what you need. If your email provider is based in London, all that can be found from your message about your real physical location is that your messages travelled through London. Note that this is effective only if the email is intercepted after it reaches your email provider. Riseup.net is such an email provider.</li>
+  <li>If your use is temporary, use a web-based anonymous remailer service but note that you should not have extended correspondence through an anonymous remailer. In fact, not all of them will even deliver messages back to you. Additionally note that even if you trust the service, you should access the remailer website with Tor Browser to anonymise your IP address.</li>
+  <li>With an email client configured to use an email address that cannot be linked to your identity, use The Onion Router (Tor) application. If properly configured, it will pass your email communication through a chain of anonymising servers that will obfuscate the message’s route between you and your service provider.</li>
+  <li>Use an email client as a portable application to send and receive your emails from public computers. For example, you could install the email client Thunderbird on a USB drive. You can then write messages on your (or any other) computer, go to a public computer, plug your memory stick into a computer, open Thunderbird, and send your messages. Sending messages from a public computer has the advantage that the computer and IP address are not associated with you. It is advised in case of using public computers to use VPN or Tor before starting your web activity and communication. In all cases there are physical clues that can identify you even with a public computer such as CCTV footage or computer user logs at libraries.</li>
+</ul>
 
+<p><strong>Keep in mind</strong></p>
+
+<p>While using public computers can be useful to maintain your annonymity, you have generally no control over what kind of software, malware, keyloggers or remote administration applications run on such a computer. Have these possible threats in mind when using a public computer.</p>
+
+<p><strong>Where to find more help</strong></p>
+
+<ul>
+  <li><a href="https://securityinabox.org/en/guide/riseup/internet" target="_blank">Read about Riseup’s</a> secure email and internet services.</li>
+  <li>Learn about <a href="https://securityinabox.org/en/guide/torbrowser/windows" target="_blank">using the Tor Browser</a>.</li>
+  <li>Learn about <a href="https://securityinabox.org/en/guide/thunderbird/windows" target="_blank">Portable Thunderbird</a>.</li>
+  <li><a href="https://securityinabox.org/en/chapter_7_2" target="_blank">Tips on responding to suspected email surveillance</a>.</li>
+</ul>
 
         
           <h6><a href="/first-aid-jk/"><< Go back to Kit</a></h6>

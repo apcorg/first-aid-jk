@@ -22,7 +22,7 @@ Untargetted malware can be used for advertising, theft, fraud, spamming, “psip
  1. First, make sure this is not a human error, which means that the information is not being disclosed by some other people whom you trust and with whom you share it. If you are positive it is not a human error, then: 
  2. Ask, “Who can have physical access to my device at home, work or elsewhere?” Protect the log-in screen with a passphrase or change your passphrase to a stronger one. 
  3. If you are using Wi-Fi to connect to the internet, make sure that the Wi-Fi connection is passphraseword-protected and not open to anyone you don’t know and trust. 
- 4. Ensure that no one but you has access to your online accounts. See [Kit #1. My email, Facebook or Twitter account was hijacked]({{ site.url }}/f08k01-accounts-hijacked/). 
+ 4. Ensure that no one but you has access to your online accounts. See [Kit #1. My email, Facebook or Twitter account was hijacked]({{ site.baseurl }}/f08k01-accounts-hijacked/). 
  5. Make sure your anti-virus software is installed and properly updated. Do a full scan of your computer. 
  6. Make sure you have a working firewall in place. 
  7. Do all you can to secure your communications such as always browsing with HTTPS and encrypting all of your emails. 
