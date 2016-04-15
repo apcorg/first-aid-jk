@@ -3,6 +3,7 @@ layout: page
 title:  "Introducción"
 ref: intro
 lang: es
+long_lang: Español
 icon: kit_red_border.png
 description: "Digital Security First Aid Kit for Human Rights Defenders (2nd. edition)"
 ---

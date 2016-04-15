@@ -21,11 +21,29 @@
   width: 16em;
   height: 14em;
   left: 31%;
+  @media #{$medium-only} and (orientation: portrait) {
+    width: 11em;
+    height: 8em; 
+  }
+  @media #{$medium-only} and (orientation: landscape) {
+    width: 13em;
+    height: 9em; 
+  }
 }
 
 #kit {
-  width: 16em;
-  height: 12em;
+  @media #{$large-up} { 
+    width: 16em;
+    height: 12em;
+  }
+  @media #{$medium-only} and (orientation: portrait) {
+    width: 11em;
+    height: 8em; 
+  }
+  @media #{$medium-only} and (orientation: landscape) {
+    width: 13em;
+    height: 9em; 
+  }
   background-image: url('../assets/img/kit_white_border.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,7 +53,7 @@
   }
 }
 
-#intro {
+#intro-text {
   font-weight: bold;
 }
 

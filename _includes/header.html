@@ -1,29 +1,12 @@
-<header class="site-header">
-
-  <div class="wrapper">
-
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title[page.lang] }}</a>
-
-    <nav class="site-nav">
-
-      <div class="trigger">
-        {% assign pages=site.pages | where:"lang", page.lang %}
-        {% for my_page in pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </nav>
-
+<header class="site-header clearfix">
+  <div class="cyr">
+    <a class="" href="{{ site.baseurl }}/"><img src="assets/img/cyr_1.png" alt=""></a>
   </div>
+  <div class="languages">
+    {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+    {% for post in posts %} <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ post.lang }}</a> {% endfor %}
 
+    {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+    {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }} neutral">{{ page.long_lang }}&nbsp;</a> {% endfor %}
+  </div>
 </header>
-
-<div class="wrapper" style="text-align: right; line-height: 2em">
-  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-  {% for post in posts %} <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ post.lang }}</a> {% endfor %}
-
-  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-  {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
-</div>

@@ -1,5 +1,6 @@
 # Site settings
-title: Digital Security First Aid Kit for Human Rights Defenders
+title: 
+  en: Digital Security First Aid Kit for Human Rights Defenders
 baseurl: '/first-aid-jk'
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
