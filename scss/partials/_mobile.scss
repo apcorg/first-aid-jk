@@ -1,4 +1,7 @@
 .mobile-body {
+	>img {
+		max-width: rem-calc(400);
+	}
 	.row {
 		&:nth-child(even) {
 			background: #eee;
@@ -9,6 +12,9 @@
 			top: 50%;
 	    position: relative;
 	    transform: translateY(-50%);
+	    img {
+	    	max-width: rem-calc(80);
+	    }
 	    a.neutral {
 	    	display: inline-block;
 	    	font-size: 0.9rem;

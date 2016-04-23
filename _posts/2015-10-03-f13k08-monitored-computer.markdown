@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Someone monitors all I do on my computern"
+title:  "Someone monitors all I do on my computer"
 ref: f13k08
 lang: en
 description: "Kit #8. Someone monitors everything I do on my computer"
