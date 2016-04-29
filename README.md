@@ -1,10 +1,6 @@
-# Foundation libsass template
-
-This is a template to start your own project that uses Grunt and libsass!
-
 ## Requirements
 
-You'll need to have the following items installed before continuing.
+You'll need to have the following items installed before starting.
 
   * [Node.js](http://nodejs.org): Use the installer provided on the NodeJS website.
   * [Grunt](http://gruntjs.com/): Run `[sudo] npm install -g grunt-cli`
@@ -13,7 +9,7 @@ You'll need to have the following items installed before continuing.
 ## Quickstart
 
 ```bash
-git clone git@github.com:zurb/foundation-libsass-template.git
+git clone https://github.com/apcorg/first-aid-jk.git
 npm install && bower install
 ```
 
@@ -21,7 +17,8 @@ While you're working on your project, run:
 
 `grunt`
 
-And you're set!
+Open another terminal and run:
+`jekyll serve`
 
 ## Directory Structure
 
