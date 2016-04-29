@@ -5,7 +5,7 @@ lang: en
 long_lang: English
 ---
 
-  <div id="svgContainer" class="show-for-large-up" style="">
+  <div id="svgContainer" class="show-for-medium-up" style="">
     <svg id="svg1" width="0" height="0" >
       <path
           id="path-01-02"
@@ -100,7 +100,7 @@ long_lang: English
     </svg>
   </div>
   
-  <div id="outer" class="show-for-large-up">
+  <div id="outer" class="show-for-medium-up">
     {% assign posts=site.posts | where:"lang", page.lang %}
     {% for post in posts %}
       <div id="{{ post.code}}" class="item {{post.top}} {{post.left}}">
@@ -122,7 +122,7 @@ long_lang: English
     </div>
   </div>
 
-  <div class="mobile-body text-center hide-for-large-up">
+  <div class="mobile-body text-center hide-for-medium-up">
     <img src="assets/img/kit_red_border.png" class="pb-21" alt="">
     {% assign posts=site.posts | where:"lang", page.lang %}
     {% for post in posts %}
