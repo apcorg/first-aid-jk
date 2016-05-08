@@ -2,7 +2,7 @@
 layout: post
 title:  "I need to chat in a secure manner"
 ref: f07k09
-lang: en
+lang: English
 description: "Kit #9. I need to chat in a secure manner"
 code: f-07
 icon: icon_f07k09.png

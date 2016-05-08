@@ -2,7 +2,7 @@
 layout: post
 title:  "I need to carry around sensitive data in a secure manner"
 ref: f02k04
-lang: en
+lang: English
 description: "Kit #4. I need to carry around sensitive data in a secure manner"
 code: f-02
 icon: icon_f02k04.png

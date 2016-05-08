@@ -2,7 +2,7 @@
 layout: post
 title:  "I need to access a blocked website anonymously"
 ref: f05k12
-lang: en
+lang: English
 description: "Kit #12. I need to access a blocked website anonymously"
 code: f-05
 icon: icon_f05k12.png

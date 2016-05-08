@@ -2,7 +2,7 @@
 layout: post
 title:  "My blog or website has been hacked or attacked"
 ref: f09k06
-lang: en
+lang: English
 description: "Kit #6. My blog or website has been hacked or attacked"
 code: f-09
 icon: icon_f09k06.png

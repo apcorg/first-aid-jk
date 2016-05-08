@@ -2,7 +2,7 @@
 layout: post
 title:  "My email or Facebook & Co. account were hijacked"
 ref: f08k01
-lang: en
+lang: English
 description: "Kit #1. My email, Facebook or Twitter account was hijacked"
 code: f-08
 icon: icon_f08k01.png

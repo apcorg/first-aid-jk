@@ -2,7 +2,7 @@
 layout: post
 title:  "If the content of my computer gets confiscated, I am afraid it will compromise my safety"
 ref: f01k02
-lang: en
+lang: English
 description: "Kit #2. If the content of my computer gets confiscated, I am afraid it will compromise my safety"
 code: f-01
 icon: icon_f01k02.png

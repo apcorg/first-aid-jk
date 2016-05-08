@@ -2,7 +2,7 @@
 layout: post
 title:  "I need to use a computer without leaving a trace"
 ref: f03k07
-lang: en
+lang: English
 description: "Kit #7. I need to use a computer without leaving a trace"
 code: f-03
 icon: icon_f03k07.png

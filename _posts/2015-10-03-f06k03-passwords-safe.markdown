@@ -2,7 +2,7 @@
 layout: post
 title:  "I need to keep my passphrases safe"
 ref: f06k03
-lang: en
+lang: English
 description: "Kit #3. I need to keep my passphrases safe"
 code: f-06
 icon: icon_f06k03.png

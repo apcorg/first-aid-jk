@@ -2,7 +2,7 @@
 layout: post
 title:  "I need to secure my mobile device and communication"
 ref: f11k05
-lang: en
+lang: English
 description: "Kit #5. I need to secure my mobile device and communication"
 code: f-11
 icon: icon_f11k05.png

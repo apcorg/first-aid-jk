@@ -2,7 +2,7 @@
 layout: post
 title:  "I need to send emails that only the recipient can read (encrypted)"
 ref: f10k11
-lang: en
+lang: English
 description: "Kit #11. I need to send emails that only the recipient can read"
 code: f-10
 icon: icon_f10k11.png
