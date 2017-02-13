@@ -20,10 +20,15 @@ Once your email or chat message leaves your computer, it travels through many no
 
 You must make careful decisions about your email provider and the software you use if you want to make sure that your messages can’t be read by anyone other than the intended recipient.
 Encrypt your communication. This means that if an unauthorised person intercepts your messages, they’ll see a sequence of letters and numbers that won’t make any sense to them. To do so:
+
 1. Rather than using your email provider’s website for sending and receiving emails (using so-called webmail), you should switch to managing your messages in an encryption-enabled email client (application). This will store your messages on your computer, and will do so exclusively if you configure the client to use the POP protocol instead of IMAP. A recommendable and well-supported email application is Mozilla Thunderbird. 
+
 2. If you install Thunderbird, you’ll need to add the Enigmail extension to manage email encryption using OpenPGP. 
+
 3. Create an encryption key pair, which is both a private key that you never share with anyone and a public key that you will give to other people to send messages to you. You can have more than one key for several reasons and uses. Once you get started and are familiar with the process, you will find it easy. You just need to practise a little bit. Follow the links below for instructions on how to create and use your OpenPGP key. 
+
 4. Configure your email client to be able to properly encrypt and decrypt email messages, using the application that is most convenient for you. Links below will lead you to instructions on how to configure and use encryption in a Thunderbird email client. 
+
 5. Get the public keys of your correspondents. Encrypted communication is end-to-end, which means both sender and receiver have to be using the same encryption protocol. You can use OpenPGP with Thunderbird/Enigmail to communicate with someone who uses OpenPGP through another client such as Claws Mail, or through the K9+AGP mail client and OpenPGP manager on Android. 
 
 **Keep in mind**
