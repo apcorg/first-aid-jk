@@ -14,6 +14,8 @@ left: left-10
 
 *You need to send sensitive information to your colleagues or friends, but you’ve heard that once messages leave your computer they travel through a strange no-man’s-land where you lose control over who might see your communication. You have a suspicion that someone is eavesdropping. If this happens when you’re sending sensitive information, you and the people you write to might get into serious trouble.*
 
+Once your email or chat message leaves your computer, it travels through many nodes or points along the way such as routers, servers and middle boxes where it can be intercepted, read and stored for future access. The internet’s underlying infrastructure was built for openness and interoperability and therefore unfortunately does not guarantee privacy.
+
 **What you should do**
 
 You must make careful decisions about your email provider and the software you use if you want to make sure that your messages can’t be read by anyone other than the intended recipient.
