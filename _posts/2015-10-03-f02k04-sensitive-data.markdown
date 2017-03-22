@@ -19,20 +19,21 @@ left: left-2-5
 In order to move around with sensitive data, you will need to not only encrypt the data but obscure its very existence.
 
 + Obscure the data physically. Consider transporting files on a small device instead of on your laptop. SD cards and USB drives can store a huge amount of data in a very small device. These devices can be hidden (and lost!) just about anywhere. Insert the SD card into an otherwise harmless electronic device if you or your bags must pass through a metal detector or x-ray, such as an empty (clean) mobile phone or camera.
-+ Once you’ve decided how you’re going to transport the data, encrypt the data. TrueCrypt [[1](https://www.apc.org/en/irhr/digital-security-first-aid-kit-4#fn691571595569cf5eec1189){:target="_blank"}] or GPGTools can encrypt any directory or file (see [Kit #2]({{ site.baseurl }}/f01k02-computer-confiscated/). If the content of my computer gets confiscated, I am afraid it will compromise my safety).
++ Once you’ve decided how you’re going to transport the data, encrypt the data. [VeraCrypt](https://securityinabox.org/en/guide/veracrypt/windows/) is a tool that allows you to create an encrypted drive (called a "volume") inside what looks like a regular file where you can store your sensitive data. The drive will only be decrypted if you provide the correct password.
++ Obscure the data digitally. If you choose to secure your data in an encrypted volume with VeraCrypt, you can also make the volume “hidden”, which can help you avoid the possibility of an adversary finding your files and asking or forcing you to reveal the decryption passphrase. Or, you might simply rename the encrypted file to something unassuming like “My Music” and place it within a typical directory structure.
++ After copying your sensitive files into the encrypted volume, use a secure deletion program like [BleachBit](https://ssd.eff.org/en/module/how-delete-your-data-securely-windows) to delete the files from their original locations. Use the "wipe free space" option to remove any other data that may be residing your hard drive's free space (this may take some time to complete).
 + Alternatively, encrypt the entire drive. Depending on what device or volume you will store your sensitive data in, consider encrypting everything, not just the sensitive files. If you do this, keep in mind that it may be more obvious that you are hiding something.
-+ Obscure the data digitally. If you choose to secure your data in an encrypted volume with TrueCrypt, you can also make the volume “hidden”, which can help you avoid the possibility of an adversary finding your files and asking or forcing you to reveal the decryption passphrase. Or, you might simply rename the encrypted file to something unassuming like “My Music” and place it within a typical directory structure.
++ If you want to hide your entire operating system, you can consider using [Tails](https://tails.boum.org/). This will create an operating system on a USB stick that you can use on any computer without leaving a trace when you remove it.
 
 **Keep in mind**
 
 + The way USB drives and SD cards store data in solid state means they are very reliable but also makes wiping data off of them difficult. Sometimes the only safe way to destroy the data to avoid eventual recovery is to literally destroy the device.
 + Note that passphrase-protection of a directory or file is not encryption and is very easy to circumvent.
-+ If the device containing the sensitive data is discovered and accessed, an unusual operating system such as GNU/Linux or the immediate appearance of a full-disk decryption prompt may in and of itself reveal that you are hiding something. Sometimes it is best to use the hide-in-plain-sight tactic.
++ If the device containing the sensitive data is discovered and accessed, the immediate appearance of a full-disk decryption prompt may in and of itself reveal that you are hiding something. Sometimes it is best to use the hide-in-plain-sight tactic.
++ Remember, there is no way to recover encrypted data if you don't remember the encryption password, so use a password manager if needed ([see Kit #3]({{ site.baseurl }}/f06k03-passwords-safe)).
 
 **Where to find more help**
 
-+ Use a [persistent volume.](https://tails.boum.org/doc/first_steps/persistence/index.en.html){:target="_blank"}
-+ Learn how to create hidden volumes with TrueCrypt.
-
-[1] Note: In September 2015, [critical security flaws](https://thehackernews.com/2015/09/truecrypt-encryption-software.html){:target="_blank"} were reported in TrueCrypt, the open source software for file and disk encryption. As a result, we are reviewing our advice and we support [these recommendations](https://securityinabox.org/en/blog/08-10-2015/truecrypts-security-flaws-what-now){:target="_blank"} for alternative tools for secure file storage.
-
++ Learn how to create hidden volumes with [VeraCrypt](https://securityinabox.org/en/guide/veracrypt/windows/).
++ Learn how to [encrypt your entire Windows system drive](https://www.howtogeek.com/howto/6169/use-truecrypt-to-secure-your-data/) with VeraCrypt.
++ Learn how to use [hash functions](https://www.howtogeek.com/67241/htg-explains-what-are-md5-sha-1-hashes-and-how-do-i-check-them/) to check whether your files have been tampered with.
