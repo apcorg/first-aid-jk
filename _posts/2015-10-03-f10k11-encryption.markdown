@@ -19,28 +19,26 @@ Once your email or chat message leaves your computer, it travels through many no
 **What you should do**
 
 You must make careful decisions about your email provider and the software you use if you want to make sure that your messages can’t be read by anyone other than the intended recipient.
-Encrypt your communication. This means that if an unauthorised person intercepts your messages, they’ll see a sequence of letters and numbers that won’t make any sense to them. To do so:
 
-1. Rather than using your email provider’s website for sending and receiving emails (using so-called webmail), you should switch to managing your messages in an encryption-enabled email client (application). This will store your messages on your computer, and will do so exclusively if you configure the client to use the POP protocol instead of IMAP. A recommendable and well-supported email application is Mozilla Thunderbird. 
+Encrypt your communication using OpenPGP. This will convert your messages into a format such that if an unauthorised person intercepts them, they’ll see a sequence of letters and numbers that won’t make any sense to them. Only those who have the intended recipient's password will be able to revert it back to the original form. There are a few different ways of achieving this:
 
-2. If you install Thunderbird, you’ll need to add the Enigmail extension to manage email encryption using OpenPGP. 
+1. Mozilla Thunderbird in combination with the Enigmail extension ([Windows](https://securityinabox.org/en/guide/thunderbird/windows/), [OS X](https://securityinabox.org/en/guide/thunderbird/mac/)). This is the preferred way of doing it as the encryption is done in a standalone mail client rather than in a browser which could be susceptible to more vulnerabilities.
+2. [Mailvelope](https://securityinabox.org/en/guide/mailvelope/web/) browser extension with your webmail. This method is the easiest way to use OpenPGP, if you are used to checking your email over the web, as you won't need to set up a separate desktop email client. However browsers are particular targets of malware and surveillance, so it is not advisable if you need to communicate very sensitive material.
+3. [K-9 with OpenKeychain](https://k9mail.github.io/documentation/security/pgpmime_current.html) apps on Android. This is useful if it is absolutely essential for you to read and write sensitive emails on your mobile device. However, due to the [inherent problems](https://ssd.eff.org/en/module/problem-mobile-phones) with using mobile phones securely, it is preferable to use a standalone desktop email client for your encrypted emails.
 
-3. Create an encryption key pair, which is both a private key that you never share with anyone and a public key that you will give to other people to send messages to you. You can have more than one key for several reasons and uses. Once you get started and are familiar with the process, you will find it easy. You just need to practise a little bit. Follow the links below for instructions on how to create and use your OpenPGP key. 
-
-4. Configure your email client to be able to properly encrypt and decrypt email messages, using the application that is most convenient for you. Links below will lead you to instructions on how to configure and use encryption in a Thunderbird email client. 
-
-5. Get the public keys of your correspondents. Encrypted communication is end-to-end, which means both sender and receiver have to be using the same encryption protocol. You can use OpenPGP with Thunderbird/Enigmail to communicate with someone who uses OpenPGP through another client such as Claws Mail, or through the K9+AGP mail client and OpenPGP manager on Android. 
+In each of the above methods, you will create two files -- a *keypair* -- consisting of what are known as your *public and private keys*. You will have to share your *public key* with anyone you wish to communicate with. (Read more about how PGP works [here](https://ssd.eff.org/en/module/introduction-public-key-cryptography-and-pgp)) .
 
 **Keep in mind**
 
-+ The message body and attachments of an email message can be encrypted. However, **the other information that travels along with every email** (including the subject, addressees, sender, dates and servers through which the message travels) **is not encrypted.** 
-+ The email you encrypt can be decrypted only if the addressee has her/his own private OpenPGP key and knows the passphrase that allows her/him to use it. Consequently, anyone in control of her/his private OpenPGP key could read the message you sent. 
-+ Encryption is illegal in some countries. Check whether this is the case in your country before you start using encryption, just to be aware. 
++ The message body and attachments of an email message can be encrypted. However, **the other information that travels along with every email** (including the subject, addressees, sender, dates and servers through which the message travels) **is not encrypted.**
++ The email you encrypt can be decrypted only if the addressee has her/his own private OpenPGP key and knows the passphrase that allows her/him to use it. Consequently, anyone in control of her/his private OpenPGP key could read the message you sent.
++ It is essential for you to keep a backup of your *private key* and ensure that no one else has access to it. If it is lost or compromised, who lose access to or compromise all of your encrypted emails.
++ Encryption is illegal in some countries. Check whether this is the case in your country before you start using encryption, just to be aware.
 
 **Where to find more help**
 
-+ Read introductions to [public key cryptography](https://ssd.eff.org/en/module/introduction-public-key-cryptography-and-pgp){:target="_blank"} and to [mail encryption with OpenPGP](http://en.flossmanuals.net/basic-internet-security/ch027_mail-encryption-gpg/){:target="_blank"}. 
-+ [Learn more about email encryption](https://securityinabox.org/en/chapter_7_4){:target="_blank"}. 
-+ Learn more about how to use OpenPGP in Thunderbird with [Enigmail](https://enigmail.net/index.php/en/documentation/what-is-enigmail){:target="_blank"}. 
-+ [Tips on responding to suspected email surveillance](https://securityinabox.org/en/chapter_7_2){:target="_blank"}. 
++ Read introductions to [public key cryptography](https://ssd.eff.org/en/module/introduction-public-key-cryptography-and-pgp){:target="_blank"} and to [mail encryption with OpenPGP](http://write.flossmanuals.net/basic-internet-security/introduction-to-mail-encryption-pgp/){:target="_blank"}.
++ [Learn more about email encryption](https://securityinabox.org/en/guide/secure-communication/#using-public-key-encryption-in-email){:target="_blank"}.
++ Learn more about how to use OpenPGP in Thunderbird with [Enigmail](https://enigmail.net/index.php/en/documentation/what-is-enigmail){:target="_blank"}.
++ [Tips on responding to suspected email surveillance](https://securityinabox.org/en/guide/secure-communication/#tips-on-responding-to-suspected-email-hacking-and-surveillance){:target="_blank"}.
 + [Learn about encryption-related laws in each country](http://www.cryptolaw.org/){:target="_blank"}.
