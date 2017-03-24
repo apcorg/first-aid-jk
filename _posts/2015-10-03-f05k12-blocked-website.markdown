@@ -18,11 +18,11 @@ left: left-10
 
 There are three options to access content that is censored, unavailable in your location or simply taboo. They differ in terms of the security and anonymity they provide to you, but also in terms of ease of use.
 
-+ The first is to use a virtual private network (VPN). VPNs enable a properly configured device to send and receive all data through another computer network. For example, if you are using a VPN to access [https://apc.org](https://apc.org){:target="_blank"}, your computer first connects to the VPN, which then connects to [https://apc.org](https://apc.org){:target="_blank"} on your behalf and sends back the result. When you connect to the internet through a VPN all your traffic and activities must be encrypted, so ensure that your VPN provider is implementing security properly. This encrypted “tunnel” protects you from surveillance and allows you to bypass censorship.
++ The first is to use a virtual private network (VPN). VPNs enable a properly configured device to send and receive all data through another computer network. For example, if you are using a VPN to access [https://apc.org](https://apc.org){:target="_blank"}, your computer first connects to the VPN, which then connects to [https://apc.org](https://apc.org){:target="_blank"} on your behalf and sends back the result. Someone who is monitoring your computer's network traffic will only see that you are communicating with the VPN rather than with the APC website. [Riseup](https://riseup.net/en/vpn) and [Psiphon](https://psiphon.ca/) are two free VPN services that you can consider using.
 
-+ With an onion routing network such as Tor, your traffic is bounced through at least three other anonymising nodes or points to your requested destination and back, providing multiple layers of anonymity that effectively obfuscate your identity. The Tor Browser is an easy application to download and install and requires little to no configuration. Tor, however, is not secure. Unless you use HTTPS – and you should always use HTTPS – and email encryption, any node or point in the Tor network can see, store and disclose the full details of your communication. Tor is also notoriously slow.
++ With an onion routing network such as Tor, your traffic is bounced through at least three other anonymising nodes or points to your requested destination and back. This means that even the operators of the nodes will not be able to see which website you are viewing. The [Tor Browser](https://securityinabox.org/en/guide/torbrowser/windows) is an easy application to download and install and requires little to no configuration. Even while using Tor, is important to use HTTPS (especially when entering passwords), to prevent a node from viewing the *content* of your communication. The extra additional anonymity of Tor comes at the cost of a reduction in the speed of your connection.
 
-+ A web proxy is perhaps the easiest tool for quick access to a blocked website. Similar to a VPN, you simply navigate to a proxy website and type in the URL that you wish to access. The proxy (an intermediary server) fetches the site for you and returns it, often with ads and other unwanted code embedded. It is not recommended to access websites regularly using a web proxy. And never use your regular browser to access a site with a proxy since your web browser contains data about you, called a fingerprint, such as your history and session cookies.
++ A web proxy is perhaps the easiest and quickest -- but least secure --  tool to access to a blocked website. Similar to a VPN, you simply navigate to a proxy website and type in the URL that you wish to access. The proxy (an intermediary server) fetches the site for you and returns it, often with ads and other unwanted code embedded. You should only consider using a web proxy to access a public website that may be blocked in your country, and you should certainly not use it to enter any passwords or access private data.
 
 **Keep in mind**
 
@@ -36,18 +36,10 @@ There are three options to access content that is censored, unavailable in your 
 
 **Where to find more help**
 
-+ [Learn about how to bypass censorship](https://securityinabox.org/en/chapter-8){:target="_blank"}.
-
-+ [Learn about extending your Firefox browser security](http://en.flossmanuals.net/basic-internet-security/ch018_noscript/){:target="_blank"}.
-
-+ [Learn about Tor](https://securityinabox.org/en/eco-rights-africa/torbrowser/windows){:target="_blank"}.
-
++ [Learn about how to bypass censorship](https://securityinabox.org/en/guide/anonymity-and-circumvention/){:target="_blank"}.
++ [Learn about extending your Firefox browser security](http://write.flossmanuals.net/basic-internet-security/extending-firefox/){:target="_blank"}.
++ [Learn about Tor](https://securityinabox.org/en/guide/torbrowser/windows/){:target="_blank"}.
 + [See an interactive illustration of how HTTPS and Tor make you both secure and anonymous](https://www.eff.org/pages/tor-and-https){:target="_blank"}.
-
-+ Learn about [Riseup VPN](https://help.riseup.net/en/vpn){:target="_blank"} and about [TunnelBear VPN](https://help.tunnelbear.com/customer/portal/topics/620889-getting-started/articles){:target="_blank"}. 
-
-+ Assess whether using a VPN will give you the protection you need.
-
-+ [Disable browsing history in Mozilla Firefox](http://www.blogtechnika.com/how-to-disable-browsing-history-feature-in-firefox/){:target="_blank"}.
-
-+ [Temporarily disable browsing history in Chrome](http://www.ehow.com/how_8156630_disable-browsing-history-google-chrome.html){:target="_blank"}.
++ Learn about [Riseup VPN](https://help.riseup.net/en/vpn){:target="_blank"}, [Psiphon](https://psiphon.ca/){:target="_blank"} and [TunnelBear VPN](https://help.tunnelbear.com/customer/portal/topics/620889-getting-started/articles){:target="_blank"}.
++ [Disable browsing history in Mozilla Firefox](https://support.mozilla.org/t5/Manage-preferences-and-add-ons/Settings-for-privacy-browsing-history-and-do-not-track/ta-p/1276#w_never-remember-history){:target="_blank"}.
++ [Temporarily disable browsing history in Chrome](https://support.google.com/websearch/answer/4540094){:target="_blank"}.
