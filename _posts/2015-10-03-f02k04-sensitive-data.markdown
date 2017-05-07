@@ -23,7 +23,7 @@ In order to move around with sensitive data, you will need to not only encrypt t
 + Obscure the data digitally. If you choose to secure your data in an encrypted volume with VeraCrypt, you can also make the volume “hidden”, which can help you avoid the possibility of an adversary finding your files and asking or forcing you to reveal the decryption passphrase. Or, you might simply rename the encrypted file to something unassuming like “My Music” and place it within a typical directory structure.
 + After copying your sensitive files into the encrypted volume, use a secure deletion program like [BleachBit](https://ssd.eff.org/en/module/how-delete-your-data-securely-windows) to delete the files from their original locations. Use the "wipe free space" option to remove any other data that may be residing your hard drive's free space (this may take some time to complete).
 + Alternatively, encrypt the entire drive. Depending on what device or volume you will store your sensitive data in, consider encrypting everything, not just the sensitive files. If you do this, keep in mind that it may be more obvious that you are hiding something.
-+ If you want to hide your entire operating system, you can consider using [Tails](https://tails.boum.org/). This will create an operating system on a USB stick that you can use on any computer without leaving a trace when you remove it.
++ If you want to hide your entire operating system, you can consider using [Tails](https://tails.boum.org/). This will create an operating system on a USB stick that you can use on any computer without leaving a trace when you remove it ([see Kit #7]({{ site.baseurl }}/f03k07-without-trace)).
 
 **Keep in mind**
 
