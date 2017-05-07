@@ -14,9 +14,7 @@ left: "left-2-5 wide"
 
 *You are security conscious and want to communicate securely with your mobile device just like you do with your laptop. You might want to have access to your work email on your mobile, to be able to browse the web on your phone anonymously, or even circumvent censorship with your mobile connection. But you’re not sure how to do all of these things in a secure way or what to avoid.*
 
-Mobile smartphones are small, expensive and can contain a huge amount of information. Mobiles are not built with security and privacy in mind. Call logs, messages and geographic positions are shared with and stored by the mobile company, whom you must trust to implement good security practices and comply with local laws to protect your privacy. In most countries, the government, a possible adversary, can easily gain access to that data.
-
-In addition, modern smartphones store a wide array of your personal information, such as photos, contacts, chat logs and browsing history, all of which have the potential to be leaked.
+Mobile smartphones are small, expensive and can contain a huge amount of information. Mobiles are not built with security and privacy in mind. Call logs, messages and geographic positions are shared with and stored by the mobile company, whom you must trust to implement good security practices and comply with local laws to protect your privacy. In most countries, the government, a possible adversary, can easily gain access to that data. Your mobile provider can also block services or censor content, again often at the request of the government. In addition, modern smartphones store a wide array of your personal information, such as photos, contacts, chat logs and browsing history, all of which have the potential to be leaked.
 
 **What you should do**
 
