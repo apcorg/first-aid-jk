@@ -20,17 +20,17 @@ There are a few options for good passphrase management and many poor passphrase 
 
 + Never store passphrases or other sensitive details in a text file on your desktop or in any other way that would permit intruders into your computer to easily find them.
 + Don’t store passphrases in your browser’s passphrase manager. Allowing your browser to “remember” passphrases to online services such as your email or Facebook account means that it stores your passphrases in a single unencrypted file that can be easily recovered and read by anyone who gains access to your computer, either physically or remotely. For example, someone could get remote access via a malware programme. If this happens, see [Kit #1: My email, Facebook or Twitter account was hijacked]({{ site.baseurl }}/f08k01-accounts-hijacked). From the browser settings menu, stop storing your passphrases, delete those that are already stored in your browser, and disallow the browser from ever asking you to store your log-in information again. ([Chrome](https://support.google.com/chrome/answer/95606), [Firefox](https://support.mozilla.org/t5/Protect-your-privacy/Password-Manager-Remember-delete-change-and-import-saved/ta-p/1380154#w_viewing-and-deleting-passwords))
-+ Install a standalone passphrase manager application. This allows you to securely store hundreds of different passwords for all of your different accounts without needing to remember them. You can easily copy and paste the saved passphrases from the application into online forms when you need to log in. The software is designed so that you never need to display the passphrase on your screen. If someone takes control over your computer, they won’t be able to access any of this information without knowing the master passphrase to your passphrase manager application.
++ Install a standalone passphrase manager application. This allows you to securely store hundreds of different passphrases for all of your different accounts without needing to remember them. You can easily copy and paste the saved passphrases from the application into online forms when you need to log in. The software is designed so that you never need to display the passphrase on your screen. If someone takes control over your computer, they won’t be able to access any of this information without knowing the master passphrase to your passphrase manager application.
 + A recommended passphrase manager application is [KeePassX](https://ssd.eff.org/en/module/how-use-keepassx){:target="_blank"} for Windows, Mac and GNU/Linux. KeePassX is easy to use, doesn’t need installation and can be moved around with USB storage. Some passphrase managers, including KeePassX, allow you to not only store passphrases, but also any type of text or file types as attachments that you can lock under the master passphrase.
-+ Make use of KeePassX's password generation tool to create unique random passwords for each of your accounts.
++ Make use of KeePassX's passphrase generation tool to create unique random passphrases for each of your accounts.
 
 **To keep in mind**
 
-+ Consider revisiting all your passwords and changing them to passphrases, which are longer and more secure.
++ Consider revisiting all your passphrases and changing them to passphrases, which are longer and more secure.
 + Consider changing all of your passphrases annually.
-+ Be aware that not even the use of standalone password managers can 100% protect you from password theft, particularly if your computer is infected by a sophisticated malware. However, the use of a password manager such as KeePassX significantly decreases the risk of such thefts.
-+ When using a password manager, remember that the security of each of your stored passwords depends on the strength of the master password, so make sure the master password is long.
-+ It is essential to make regular backups of your KeePassX database file. If you don't have a backup and you lose of damage the device on which the file stored, then you will have lost all of the stored passwords.
++ Be aware that not even the use of standalone passphrase managers can 100% protect you from passphrase theft, particularly if your computer is infected by a sophisticated malware. However, the use of a passphrase manager such as KeePassX significantly decreases the risk of such thefts.
++ When using a passphrase manager, remember that the security of each of your stored passphrases depends on the strength of the master passphrase, so make sure the master passphrase is long.
++ It is essential to make regular backups of your KeePassX database file. If you don't have a backup and you lose of damage the device on which the file stored, then you will have lost all of the stored passphrases.
 
 **Where to find more help**
 

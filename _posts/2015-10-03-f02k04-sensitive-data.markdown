@@ -19,7 +19,7 @@ left: left-2-5
 In order to move around with sensitive data, you will need to not only encrypt the data but obscure its very existence.
 
 + Obscure the data physically. Consider transporting files on a small device instead of on your laptop. SD cards and USB drives can store a huge amount of data in a very small device. These devices can be hidden (and lost!) just about anywhere. Insert the SD card into an otherwise harmless electronic device if you or your bags must pass through a metal detector or x-ray, such as an empty (clean) mobile phone or camera.
-+ Once you’ve decided how you’re going to transport the data, encrypt the data. [VeraCrypt](https://securityinabox.org/en/guide/veracrypt/windows/) is a tool that allows you to create an encrypted drive (called a "volume") inside what looks like a regular file where you can store your sensitive data. The drive will only be decrypted if you provide the correct password.
++ Once you’ve decided how you’re going to transport the data, encrypt the data. [VeraCrypt](https://securityinabox.org/en/guide/veracrypt/windows/) is a tool that allows you to create an encrypted drive (called a "volume") inside what looks like a regular file where you can store your sensitive data. The drive will only be decrypted if you provide the correct passphrase.
 + Obscure the data digitally. If you choose to secure your data in an encrypted volume with VeraCrypt, you can also make the volume “hidden”, which can help you avoid the possibility of an adversary finding your files and asking or forcing you to reveal the decryption passphrase. Or, you might simply rename the encrypted file to something unassuming like “My Music” and place it within a typical directory structure.
 + After copying your sensitive files into the encrypted volume, use a secure deletion program like [BleachBit](https://ssd.eff.org/en/module/how-delete-your-data-securely-windows) to delete the files from their original locations. Use the "wipe free space" option to remove any other data that may be residing your hard drive's free space (this may take some time to complete).
 + Alternatively, encrypt the entire drive. Depending on what device or volume you will store your sensitive data in, consider encrypting everything, not just the sensitive files. If you do this, keep in mind that it may be more obvious that you are hiding something.
@@ -30,7 +30,7 @@ In order to move around with sensitive data, you will need to not only encrypt t
 + The way USB drives and SD cards store data in solid state means they are very reliable but also makes wiping data off of them difficult. Sometimes the only safe way to destroy the data to avoid eventual recovery is to literally destroy the device.
 + Note that passphrase-protection of a directory or file is not encryption and is very easy to circumvent.
 + If the device containing the sensitive data is discovered and accessed, the immediate appearance of a full-disk decryption prompt may in and of itself reveal that you are hiding something. Sometimes it is best to use the hide-in-plain-sight tactic.
-+ Remember, there is no way to recover encrypted data if you don't remember the encryption password, so use a password manager if needed ([see Kit #3]({{ site.baseurl }}/f06k03-passwords-safe)).
++ Remember, there is no way to recover encrypted data if you don't remember the encryption passphrase, so use a passphrase manager if needed ([see Kit #3]({{ site.baseurl }}/f06k03-passwords-safe)).
 
 **Where to find more help**
 

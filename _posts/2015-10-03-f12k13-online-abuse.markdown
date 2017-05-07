@@ -32,7 +32,7 @@ Here are some strategies you can use to respond and protect yourself. However, t
 
 + **Install a firewall, secure your Wi-Fi and turn off Bluetooth.** Wi-Fi hotspots and Bluetooth connections can reveal your location and make it easier for people to hack your phone. When using public Wi-Fi, your line of defence is your firewall. A firewall will defend you from untrusted connections from the internet and local networks, which could let hackers and viruses access your computer. A firewall is the first programme on a computer that sees incoming data from the internet and the last programme to handle outgoing information.
  1. For your home connection, make sure the connection is protected by WPA2 security. WEP (another encryption standard used for securing Wi-Fi networks) is child's play for hackers.
- 2. [Choose a very strong password]({{ site.baseurl }}/f06k03-passwords-safe/) for the Wi-Fi connection.
+ 2. [Choose a very strong passphrase]({{ site.baseurl }}/f06k03-passwords-safe/) for the Wi-Fi connection.
  3. Install a firewall.
  4. Switch off your Bluetooth connection.
 + **Get an alternative SIM card.** If a stalker can obtain your mobile number, they may harass you through SMS messages and phone calls. They may use it in combination with GPS to reveal that they know your location. Consider an alternate SIM card for private calls.
@@ -45,7 +45,7 @@ Here are some strategies you can use to respond and protect yourself. However, t
 + **Disable the GPS on your mobile camera.** Photos have information embedded in their properties that include when and where you took them (if your camera or phone have a GPS). It can also be possible to decipher the location based on what's in the image. This geographic info can be embedded in photos pinpointing exactly when and where the photo was taken. Together with the content, it can be easy to discern where you live, work or play.
  1. On an iPhone, go to Settings > Privacy > Location, and disable the option of “Camera”.
  2. On Android, go to the camera application. Under settings, turn “Location Tag” to “Off”.
-+ **Protect your phone with a passphrase.** If your phone is not password protected, anyone who gets their hands on it can access your information. Password hacking is common, and the more a stalker knows about you, the more likely they are to guess your passwords. Passphrase protection will keep your data safer if you lose your phone or someone tries to use it without your permission.
++ **Protect your phone with a passphrase.** If your phone is not passphrase protected, anyone who gets their hands on it can access your information. Passphrase hacking is common, and the more a stalker knows about you, the more likely they are to guess your passphrases. Passphrase protection will keep your data safer if you lose your phone or someone tries to use it without your permission.
  1. For more information refer to [Kit #3: I need to keep my passphrases safe]({{ site.baseurl }}/f06k03-passwords-safe/).
  2. Reset your passphrases regularly.
 + **Protect your computer and phone from spyware and malware.** Malicious applications may contain spyware. The more capabilities your smartphone has, like GPS, the more those extras can be used to spy on you. Malware and spyware are used to track, record and watch what you do online.

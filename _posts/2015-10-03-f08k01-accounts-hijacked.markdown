@@ -35,7 +35,7 @@ Once you recover access to your service, do the following immediately:
 
 1. Go to your account settings to change your passphrase and add a secondary email address.
 
-2. Consider enabling "[two factor authentication](https://www.eff.org/deeplinks/2016/12/12-days-2fa-how-enable-two-factor-authentication-your-online-accounts)" (2FA) by adding your mobile phone number to your account. This will require you to enter not only your password, but also a short code received/generated on your phone, which will improve the security of your account.
+2. Consider enabling "[two factor authentication](https://www.eff.org/deeplinks/2016/12/12-days-2fa-how-enable-two-factor-authentication-your-online-accounts)" (2FA) by adding your mobile phone number to your account. This will require you to enter not only your passphrase, but also a short code received/generated on your phone, which will improve the security of your account.
 
   If you enable 2FA then be sure to save the backup codes that are provided to you when setting it up. These backup codes can be used to log in if you are unable to receive the short code on your phone for any reason (such as if you are travelling outside of the country, or you lose/damage your phone).
 

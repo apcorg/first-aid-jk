@@ -22,7 +22,7 @@ There are three options to access content that is censored, unavailable in your 
 
 + With an onion routing network such as Tor, your traffic is bounced through at least three other anonymising nodes or points to your requested destination and back, providing multiple layers of anonymity that effectively obfuscate your identity. The Tor Browser is an easy application to download and install and requires little to no configuration. Tor, however, is not secure. Unless you use HTTPS – and you should always use HTTPS – and email encryption, any node or point in the Tor network can see, store and disclose the full details of your communication. Tor is also notoriously slow.
 
-+ A web proxy is perhaps the easiest and quickest -- but least secure --  tool to access to a blocked website. Similar to a VPN, you simply navigate to a proxy website and type in the URL that you wish to access. The proxy (an intermediary server) fetches the site for you and returns it, often with ads and other unwanted code embedded. You should only consider using a web proxy to access a public website that may be blocked in your country, and you should certainly not use it to enter any passwords or access private data.
++ A web proxy is perhaps the easiest and quickest -- but least secure --  tool to access to a blocked website. Similar to a VPN, you simply navigate to a proxy website and type in the URL that you wish to access. The proxy (an intermediary server) fetches the site for you and returns it, often with ads and other unwanted code embedded. You should only consider using a web proxy to access a public website that may be blocked in your country, and you should certainly not use it to enter any passphrases or access private data.
 
 **Keep in mind**
 
