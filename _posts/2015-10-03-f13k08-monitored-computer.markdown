@@ -26,8 +26,8 @@ Untargetted malware can be used for advertising, theft, fraud, spamming, “psip
  4. Ensure that no one but you has access to your online accounts. See [Kit #1. My email, Facebook or Twitter account was hijacked]({{ site.baseurl }}/f08k01-accounts-hijacked/).
  5. Make sure your [anti-virus software](https://securityinabox.org/en/guide/avast/windows/) is installed and properly updated. Do a full scan of your computer.
  6. Make sure you have a working [firewall](https://securityinabox.org/en/guide/comodo/windows/) in place.
- 7. Remove any unwanted or suspicious add-ons/extensions from your browser ([Chrome](https://support.google.com/chrome_webstore/answer/2664769), [Firefox](https://support.mozilla.org/t5/Manage-preferences-and-add-ons/Disable-or-remove-Add-ons/ta-p/1000))
- 8. Uninstall unwanted or suspicious programs from your computer ([Windows](https://support.microsoft.com/en-us/help/2601726), [OS X](https://support.apple.com/kb/PH18752))
+ 7. Remove any unwanted or suspicious add-ons/extensions from your browser.
+ 8. Uninstall unwanted or suspicious programs from your computer.
  9. Do all you can to secure your communications such as always browsing with HTTPS and encrypting all of your emails ([see Kit #11]({{ site.baseurl }}/f10k11-encryption)).
  10. If you suspect that someone can see documents that you do not send over the internet or other things you do/have on your computer, your computer is probably ”hijacked” by someone who has full, remote access to your computer either via malicious software or a keylogger. At this extreme stage it is advised to stop using the infected computer and disconnect it from the internet and any media. Carefully migrate essential files (not your entire drive) to a brand new device with a fresh operating system.
 
@@ -38,4 +38,3 @@ Untargetted malware can be used for advertising, theft, fraud, spamming, “psip
 + Use [anti-spyware software](https://securityinabox.org/en/guide/spybot/windows/){:target="_blank"}.
 + Use a [firewall](https://securityinabox.org/en/guide/comodo/windows/){:target="_blank"}.
 + Securely browse the web with [HTTPS–Everywhere](https://www.eff.org/https-everywhere){:target="_blank"}.
-+ [Change the security settings of your Gmail account](https://support.google.com/mail/answer/6562){:target="_blank"}.
