@@ -35,7 +35,7 @@ Once you recover access to your service, do the following immediately:
 
 1. Go to your account settings to change your passphrase and add a secondary email address.
 
-2. Consider enabling "[two factor authentication](https://www.eff.org/deeplinks/2016/12/12-days-2fa-how-enable-two-factor-authentication-your-online-accounts)" (2FA) by adding your mobile phone number to your account. This will require you to enter not only your password, but also a short code received/generated on your phone, making it significantly more difficult for hackers to break in to your account.
+2. Consider enabling "[two factor authentication](https://www.eff.org/deeplinks/2016/12/12-days-2fa-how-enable-two-factor-authentication-your-online-accounts)" (2FA) by adding your mobile phone number to your account. This will require you to enter not only your password, but also a short code received/generated on your phone, which will improve the security of your account.
 
   However, there are some caveats to this. If your government has a track record of colluding with mobile operators, then it may be able to intercept your verification code when it is sent to your phone via SMS. If you have a smartphone, you can protect against this threat by using an app to generate codes rather than have them sent to you via SMS (instructions for [Google](https://support.google.com/accounts/answer/1066447) and [Facebook](https://www.facebook.com/help/270942386330392)), or receive a [sign-in prompt](https://support.google.com/accounts/answer/7026266) on your phone.
 
