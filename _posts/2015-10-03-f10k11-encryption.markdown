@@ -31,7 +31,6 @@ In each of the above methods, you will create two files -- a *keypair* -- consis
 
 + The message body and attachments of an email message can be encrypted. However, **the other information that travels along with every email** (including the subject, addressees, sender, dates and servers through which the message travels) **is not encrypted.**
 + The email you encrypt can be decrypted only if the addressee has her/his own private OpenPGP key and knows the passphrase that allows her/him to use it. Consequently, anyone in control of her/his private OpenPGP key could read the message you sent.
-+ It is essential for you to keep a backup of your *private key* and ensure that no one else has access to it. If it is lost or compromised, who lose access to or compromise all of your encrypted emails.
 + Encryption is illegal in some countries. Check whether this is the case in your country before you start using encryption, just to be aware.
 
 **Where to find more help**
