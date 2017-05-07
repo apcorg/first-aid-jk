@@ -29,7 +29,7 @@ There are a few options for good passphrase management and many poor passphrase 
 + Consider revisiting all your passwords and changing them to passphrases, which are longer and more secure.
 + Consider changing all of your passphrases annually.
 + Be aware that not even the use of standalone password managers can 100% protect you from password theft, particularly if your computer is infected by a sophisticated malware. However, the use of a password manager such as KeePassX significantly decreases the risk of such thefts.
-+ When using a password manager, remember that the security of each of your stored passwords depends on the strength of the master password, so make sure it is long and difficult to guess.
++ When using a password manager, remember that the security of each of your stored passwords depends on the strength of the master password, so make sure the master password is long.
 + It is essential to make regular backups of your KeePassX database file. If you don't have a backup and you lose of damage the device on which the file stored, then you will have lost all of the stored passwords.
 
 **Where to find more help**
