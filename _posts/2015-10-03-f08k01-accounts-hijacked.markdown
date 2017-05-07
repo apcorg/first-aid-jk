@@ -16,7 +16,7 @@ left: left-1
 
 **What you should do**
 
-You need to double-check first of all that you are on the correct log-in page; that the link and interface you are seeing are genuine. Look carefully for slight variations in the URL. In particular, make sure that the URL starts with `https` and it is preceded by a green padlock icon in your browser ([read more](https://www.howtogeek.com/181767/htg-explains-what-is-https-and-why-should-i-care/)).
+You need to double-check first of all that you are on the correct log-in page; that the link and interface you are seeing are genuine. Look carefully for slight variations in the URL. In particular, make sure that the URL starts with `https` in your browser ([read more](https://www.howtogeek.com/181767/htg-explains-what-is-https-and-why-should-i-care/)).
 
 It might be useful to ask someone around you, or visit a service-monitoring site like [downrightnow.com](http://downrightnow.com/), to check that the service you are trying to access is not out of order; this sometimes happens even to the biggest service providers.
 
