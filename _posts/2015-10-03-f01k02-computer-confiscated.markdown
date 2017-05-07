@@ -16,7 +16,7 @@ left: "left-1 wide"
 
 **What you should do**
 
-Not much can be done once your computer is lost, other than changing the passwords and securing your online accounts (see [Kit #1]({{ site.baseurl/f08k01-accounts-hijacked }}) for details). So it is all the more important to prepare your system in such a way that the leakage of sensitive data is minimal if it gets lost.
+Not much can be done once your computer is lost. So you should prepare your system and use your computer in such a way that in the eventuality of its loss, the leakage of contacts and other sensitive data is minimal.
 
 **Prepare in advance**
 + Use passphrases. As a most basic protection against information leakage due to an opportunistic (not targeted) theft or loss, use a desktop passphrase. Configure your device to require a passphrase when it is switched on, and activate a passphrase-protected screen saver or lock screen that automatically activates after five minutes of computer or device inactivity. ([Windows](https://support.microsoft.com/en-us/help/17185), [OS X](https://support.apple.com/en-us/HT204379))
