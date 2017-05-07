@@ -37,9 +37,7 @@ Once you recover access to your service, do the following immediately:
 
 2. Consider enabling "[two factor authentication](https://www.eff.org/deeplinks/2016/12/12-days-2fa-how-enable-two-factor-authentication-your-online-accounts)" (2FA) by adding your mobile phone number to your account. This will require you to enter not only your password, but also a short code received/generated on your phone, which will improve the security of your account.
 
-  However, there are some caveats to this. If your government has a track record of colluding with mobile operators, then it may be able to intercept your verification code when it is sent to your phone via SMS. If you have a smartphone, you can protect against this threat by using an app to generate codes rather than have them sent to you via SMS (instructions for [Google](https://support.google.com/accounts/answer/1066447) and [Facebook](https://www.facebook.com/help/270942386330392)), or receive a [sign-in prompt](https://support.google.com/accounts/answer/7026266) on your phone.
-
-  Remember to save some backup codes and keep them handy especially while travelling.
+  If you enable 2FA then be sure to save the backup codes that are provided to you when setting it up. These backup codes can be used to log in if you are unable to receive the short code on your phone for any reason (such as if you are travelling outside of the country, or you lose/damage your phone).
 
 3. Go to your account’s security settings and activate [log-in alerts](https://www.facebook.com/about/basics/stay-safe-and-secure/login-alerts) or log-in verification. On [Gmail](https://support.google.com/mail/answer/45938?hl=en) and [Facebook](https://www.facebook.com/help/211990645501187) you can review recent activity on your account and their locations and sign yourself out of sessions that are unfamiliar.
 
