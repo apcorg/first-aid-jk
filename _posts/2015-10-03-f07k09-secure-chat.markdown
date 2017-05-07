@@ -28,6 +28,8 @@ There are many secure chat applications, however you will have to choose the bes
 
 Signal is an excellent FLOSS app for mobiles, with end-to-end encryption, the option to encrypt files on your device, and the option to automatically delete messages after a specified amount of time.
 
+**Keep in mind**
+
 Whatsapp uses the same end-to-end encryption protocol as Signal, and has the advantage of being extremely popular already, so you probably will not have to ask your contacts to install any new software. The problem however is that Whatsapp is not FLOSS, so it is difficult to independently verify whether it is actually doing what it its makers claim. In addition, Whatsapp is owned by Facebook, which means that even if the messages are end-to-end encrypted, Facebook has access to your metadata: i.e. who you are communicating with, and how often. (Read [here](https://securityinabox.org/en/blog/2016-05-23/why-we-still-recommend-signal-over-whatsapp-even-though-they-both-use-end-to-end-encryption) for more).
 
 Bear in mind that any messages you send using Signal or Whatsapp are linked to your phone number, which can be a problem if anonymity is essential for you. For chat software that is not linked to your phone number try [Cryptocat](https://crypto.cat/) (for Windows, Mac and Linux) or [ChatSecure](https://chatsecure.org/) (for iOS), both of which are FLOSS and end-to-end encrypted.
