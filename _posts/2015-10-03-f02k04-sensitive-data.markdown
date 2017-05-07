@@ -36,4 +36,3 @@ In order to move around with sensitive data, you will need to not only encrypt t
 
 + Learn how to create hidden volumes with [VeraCrypt](https://securityinabox.org/en/guide/veracrypt/windows/).
 + Learn how to [encrypt your entire Windows system drive](https://www.howtogeek.com/howto/6169/use-truecrypt-to-secure-your-data/) with VeraCrypt.
-+ Learn how to use [hash functions](https://www.howtogeek.com/67241/htg-explains-what-are-md5-sha-1-hashes-and-how-do-i-check-them/) to check whether your files have been tampered with.
