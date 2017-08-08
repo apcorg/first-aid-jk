@@ -150,12 +150,12 @@ $alert-color: #FF5B47;
 // d. Media Query Ranges
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-// $small-breakpoint:  em-calc(640);
+$small-breakpoint: 41.688em;
 // $medium-breakpoint: em-calc(1024);
 // $large-breakpoint:  em-calc(1440);
 // $xlarge-breakpoint: em-calc(1920);
 
-// $small-range:   (0, $small-breakpoint);
+$small-range:   (0, $small-breakpoint);
 // $medium-range:  ($small-breakpoint  + em-calc(1), $medium-breakpoint);
 // $large-range:   ($medium-breakpoint + em-calc(1), $large-breakpoint);
 // $xlarge-range:  ($large-breakpoint  + em-calc(1), $xlarge-breakpoint);

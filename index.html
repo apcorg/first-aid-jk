@@ -1,105 +1,105 @@
 ---
 layout: default
 ref: index
-lang: en
+lang: English
 ---
 
-  <div id="svgContainer" style="">
+  <div id="svgContainer" class="show-for-medium-up" style="">
     <svg id="svg1" width="0" height="0" >
       <path
           id="path-01-02"
           d="M0 0"         
           stroke="#FF7A5E" 
           fill="none" 
-          stroke-width="6px";/>
+          stroke-width="7px";/>
       <path
           id="path-02-03"
           d="M0 0"         
           stroke="#60D4D8" 
           fill="none" 
-          stroke-width="6px";/>
+          stroke-width="7px";/>
       <path
           id="path-03-04"
           d="M0 0"         
           stroke="#FF7A5E" 
           fill="none" 
-          stroke-width="6px";/>
+          stroke-width="7px";/>
       <path
           id="path-02-06"
           d="M0 0"         
           stroke="#60D4D8" 
           fill="none" 
-          stroke-width="6px";/>
+          stroke-width="7px";/>
       <path
           id="path-06-08"
           d="M0 0"         
           stroke="#60D4D8" 
           fill="none" 
-          stroke-width="6px";/>
+          stroke-width="7px";/>
       <path
           id="path-08-11"
           d="M0 0"         
           stroke="#FF7A5E" 
           fill="none" 
-          stroke-width="6px";/>
+          stroke-width="7px";/>
       <path
           id="path-03-07"
           d="M0 0"         
           stroke="#60D4D8" 
           fill="none" 
-          stroke-width="6px";/>
+          stroke-width="7px";/>
       <path
           id="path-04-05"
           d="M0 0"         
           stroke="#FF7A5E" 
           fill="none" 
-          stroke-width="6px";/>
+          stroke-width="7px";/>
       <path
           id="path-07-05"
           d="M0 0"         
-          stroke="#60D4D8" 
+          stroke="#FF7A5E" 
           fill="none" 
-          stroke-width="6px";/>
+          stroke-width="7px";/>
       <path
           id="path-07-10"
           d="M0 0"         
-          stroke="#60D4D8" 
+          stroke="#FF7A5E" 
           fill="none" 
-          stroke-width="6px";/>
+          stroke-width="7px";/>
       <path
           id="path-08-09"
           d="M0 0"         
-          stroke="#60D4D8" 
+          stroke="#FF7A5E" 
           fill="none" 
-          stroke-width="6px";/>
+          stroke-width="7px";/>
       <path
           id="path-09-13"
           d="M0 0"         
           stroke="#60D4D8" 
           fill="none" 
-          stroke-width="6px";/>
+          stroke-width="7px";/>
       <path
           id="path-11-12"
           d="M0 0"         
-          stroke="#60D4D8" 
+          stroke="#FF7A5E" 
           fill="none" 
-          stroke-width="6px";/>
+          stroke-width="7px";/>
       <path
           id="path-12-13"
           d="M0 0"         
-          stroke="#60D4D8" 
+          stroke="#FF7A5E" 
           fill="none" 
-          stroke-width="6px";/>
+          stroke-width="7px";/>
       <path
           id="path-05-10"
           d="M0 0"         
           stroke="#FF7A5E" 
           fill="none" 
-          stroke-width="6px";/>
+          stroke-width="7px";/>
     </svg>
   </div>
   
-  <div id="outer">
+  <div id="outer" class="show-for-medium-up">
     {% assign posts=site.posts | where:"lang", page.lang %}
     {% for post in posts %}
       <div id="{{ post.code}}" class="item {{post.top}} {{post.left}}">
@@ -114,5 +114,28 @@ lang: en
         </a>
         </figure>
       </div>
+    {% endfor %}
+    <div id="kit-intro" class="top-2">
+      <a href="{{site.baseurl}}/intro.html"><div id="kit"></div></a>
+      <div id="intro-text" class="tiny pl-14 text-center"><a class="neutral" href="{{site.baseurl}}/intro.html">READ INTRODUCTION ></a></div>
+    </div>
+  </div>
+
+  <div class="mobile-body text-center hide-for-medium-up">
+    <img src="assets/img/kit_red_border.png" class="pb-21" alt="">
+    {% assign posts=site.posts | where:"lang", page.lang %}
+    {% for post in posts %}
+    <div class="row pv-14">
+      <div class="columns small-3">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+        <img src="assets/img/{{post.icon}}" alt="">
+        </a>
+      </div>
+      <div class="columns text-left small-9">
+        <a class="neutral" href="{{ post.url | prepend: site.baseurl }}">
+          {{ post.title }}
+        </a>
+      </div>
+    </div>
     {% endfor %}
   </div>

@@ -1,12 +1,46 @@
 ---
 layout: post
 title:  "I need to chat in a secure manner"
-ref: f-04
-lang: en
+ref: f07k09
+lang: English
 description: "Kit #9. I need to chat in a secure manner"
 code: f-07
-icon: icon_f-01.png
-top: top-4
+icon: icon_f07k09.png
+top: top-4-5
 left: left-8-5
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+##### I need to chat with someone while no one else is listening or monitoring our conversation. I can only share information with them if I know that no one else will find it out.
+
+*You are preparing an online meeting with one or more colleagues and you need to share confidential information with them. You need to be sure that no one can actively monitor or passively collect the content or any other information related to your conversation.*
+
+Chatting tools are like the rest of the communication tools we use on a daily basis: they could be monitored and have different levels of risks. When using chatting applications, be aware that they are either:
+
++ End-to-end encrypted, which means that only you and the receiver can read the messages and no one else can.
++ Encrypted to the server, which means your connections to the service provider are secure but requires you to trust your service provider (Microsoft in the case of Skype, Google in the case of Hangouts).
++ Not encrypted at all, which means that anyone watching your communication could see your messages in plain text.
+
+You must also trust the application. The only way to judge the security of an application and verify its privacy claims is to review its code in an open and transparent manner. Applications that provide their code for community review, and comply with [several other criteria](http://www.gnu.org/philosophy/free-sw.en.html){:target="_blank"}, are classified as free/libre and open source software (FLOSS). FLOSS applications are generally trustworthy.
+
+**What you should do**
+
+There are many secure chat applications, however you will have to choose the best for you based on your particular needs and risk profile. We generally recommend FLOSS applications that use end-to-end encryption.
+
+Signal is an excellent FLOSS app for mobiles, with end-to-end encryption, the option to encrypt files on your device, and the option to automatically delete messages after a specified amount of time.
+
+**Keep in mind**
+
+Whatsapp uses the same end-to-end encryption protocol as Signal, and has the advantage of being extremely popular already, so you probably will not have to ask your contacts to install any new software. The problem however is that Whatsapp is not FLOSS, so it is difficult to independently verify whether it is actually doing what it its makers claim. In addition, Whatsapp is owned by Facebook, which means that even if the messages are end-to-end encrypted, Facebook has access to your metadata: i.e. who you are communicating with, and how often. (Read [here](https://securityinabox.org/en/blog/2016-05-23/why-we-still-recommend-signal-over-whatsapp-even-though-they-both-use-end-to-end-encryption) for more).
+
+Bear in mind that any messages you send using Signal or Whatsapp are linked to your phone number, which can be a problem if anonymity is essential for you. For chat software that is not linked to your phone number try [Cryptocat](https://crypto.cat/) (for Windows, Mac and Linux) or [ChatSecure](https://chatsecure.org/) (for iOS), both of which are FLOSS and end-to-end encrypted.
+
+<!-- Removed this para until EFF updates their scorecard
+Start by learning which applications and tools implement secure protocols and which do not from the [Secure Messaging Scorecard](https://www.eff.org/secure-messaging-scorecard){:target="_blank"}.
+-->
+
+**Where to find more help**
+
++ [Use Signal for Android](https://securityinabox.org/en/guide/signal/android/){:target="_blank"}.
++ [Use Signal for iPhone](https://ssd.eff.org/en/module/how-use-signal-ios){:target="_blank"}.
++ [Use Jitsi (xmpp)](https://securityinabox.org/en/guide/jitsi/windows/){:target="_blank"}.
++ [Use Pidgin with OTR](https://ssd.eff.org/en/module/how-use-otr-windows){:target="_blank"}.

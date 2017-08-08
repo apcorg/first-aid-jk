@@ -1,0 +1,33 @@
+.site-header {
+	padding: 0 rem-calc(21);
+	@media #{$medium-up} { 
+		height: 80px;
+	}
+	.cyr {
+		@media #{$medium-up} { 
+			width: 12%;
+			float: left;
+			@include clearfix;
+		}
+		@media #{$small-only} { 
+			text-align: center;
+			img {
+				max-width: 180px;
+			}
+		}
+	}
+	.languages {
+		padding-top: 14px;
+		height: 100%;
+		@media #{$medium-up} { 
+			@include clearfix;
+			float: right;
+		}
+		a.neutral {
+			font-size: 0.8rem;
+			text-transform: uppercase;
+			position: relative;
+			top: 30%;
+		}
+	}
+}

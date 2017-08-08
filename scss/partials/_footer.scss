@@ -1,0 +1,27 @@
+#footer {
+	ul.logos { 
+		margin: 0;
+		list-style: none;
+		@media #{$small-only} {
+			text-align: center;
+		}
+		li {
+			display: inline-block;
+			padding-right: rem-calc(14);
+			img {
+				height: 40px;
+			}
+		} 
+	}
+	.apc-logo {
+		padding: 0;
+		@media #{$small-only} { 
+			text-align: center;
+			padding-top: rem-calc(7);
+		}
+		text-align: right;
+		img {
+			height: 60px;
+		}
+	}
+}

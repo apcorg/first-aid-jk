@@ -11,7 +11,7 @@ body {
 }
 
 .tiny {
-	font-size: 0.6rem;
+	font-size: 0.7rem;
 }
 
 h2 {
@@ -42,4 +42,8 @@ a.neutral {
 	&:hover {
 		text-underline: none;
 	}
+}
+
+.absolute {
+	position: absolute;
 }

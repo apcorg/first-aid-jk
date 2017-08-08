@@ -7,78 +7,87 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>I need to send emails that only the recipient can read (encrypted)</title>
-  <meta name="description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa...">
+  <meta name="description" content="How can I be sure that the contents of my emails are completely confidential?">
 
 	<!-- WebFonts -->
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="/css/app.css">
-  <link rel="canonical" href="/f10k11-encryption">
-  <link rel="alternate" type="application/rss+xml" title="Digital Security First Aid Kit for Human Rights Defenders" href="/feed.xml" />
+  <!-- styles -->
+  <link rel="stylesheet" href="/first-aid-jk/css/app.css">
+  <!-- other links -->
+  <link rel="canonical" href="/first-aid-jk/f10k11-encryption">
+  
+  <link rel="alternate" hreflang="English" href="/f10k11-encryption" />
+  
+  <link rel="alternate" type="application/rss+xml" title="" href="/first-aid-jk">
 </head>
 
 
   <body>
 
-    <header class="site-header">
-
-  <div class="wrapper">
-
-    <a class="site-title" href="/"></a>
-
-    <nav class="site-nav">
-
-      <div class="trigger">
-        
-        
-          
-        
-          
-        
-      </div>
-    </nav>
-
+    <header class="site-header clearfix">
+  <div class="cyr">
+    <a class="" href="/first-aid-jk/"><img src="assets/img/cyr_1.png" alt=""></a>
   </div>
+  <div class="languages">
+    
+     <a href="/first-aid-jk/f10k11-encryption" class="English">English</a> 
 
+    
+    
+  </div>
 </header>
 
-<div class="wrapper" style="text-align: right; line-height: 2em">
-  
-   <a href="/f10k11-encryption" class="en">en</a> 
-
-  
-  
-</div>
 
     <div class="page-content">
       <div class="wrapper post-item">
         <h4 class="mb-14">Kit #11. I need to send emails that only the recipient can read</h4 class="mb-14">
-        <div class="mb-14 text-center">
-          <img src="/assets/img/icon_f-01.png" alt="">
+        <div class="mb-14 featured-image text-center">
+          <img src="/first-aid-jk/assets/img/icon_f10k11.png" alt="">
         </div>
-        <p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+        <h5 id="how-can-i-be-sure-that-the-contents-of-my-emails-are-completely-confidential">How can I be sure that the contents of my emails are completely confidential?</h5>
 
-<p>To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention <code>YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<p><em>You need to send sensitive information to your colleagues or friends, but you’ve heard that once messages leave your computer they travel through a strange no-man’s-land where you lose control over who might see your communication. You have a suspicion that someone is eavesdropping. If this happens when you’re sending sensitive information, you and the people you write to might get into serious trouble.</em></p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<p><strong>What you should do</strong></p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">&quot;Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">&quot;</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">&#39;Tom&#39;</span><span class="p">)</span>
-<span class="c1">#=&gt; prints &#39;Hi, Tom&#39; to STDOUT.</span></code></pre></div>
+<p>You must make careful decisions about your email provider and the software you use if you want to make sure that your messages can’t be read by anyone other than the intended recipient.
+Encrypt your communication. This means that if an unauthorised person intercepts your messages, they’ll see a sequence of letters and numbers that won’t make any sense to them. To do so:
+ 1. Rather than using your email provider’s website for sending and receiving emails (using so-called webmail), you should switch to managing your messages in an encryption-enabled email client (application). This will store your messages on your computer, and will do so exclusively if you configure the client to use the POP protocol instead of IMAP. A recommendable and well-supported email application is Mozilla Thunderbird. 
+ 2. If you install Thunderbird, you’ll need to add the Enigmail extension to manage email encryption using OpenPGP. 
+ 3. Create an encryption key pair, which is both a private key that you never share with anyone and a public key that you will give to other people to send messages to you. You can have more than one key for several reasons and uses. Once you get started and are familiar with the process, you will find it easy. You just need to practise a little bit. Follow the links below for instructions on how to create and use your OpenPGP key. 
+ 4. Configure your email client to be able to properly encrypt and decrypt email messages, using the application that is most convenient for you. Links below will lead you to instructions on how to configure and use encryption in a Thunderbird email client. 
+ 5. Get the public keys of your correspondents. Encrypted communication is end-to-end, which means both sender and receiver have to be using the same encryption protocol. You can use OpenPGP with Thunderbird/Enigmail to communicate with someone who uses OpenPGP through another client such as Claws Mail, or through the K9+AGP mail client and OpenPGP manager on Android.</p>
 
-<p>Check out the <a href="http://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+<p><strong>Keep in mind</strong></p>
 
+<ul>
+  <li>The message body and attachments of an email message can be encrypted. However, <strong>the other information that travels along with every email</strong> (including the subject, addressees, sender, dates and servers through which the message travels) <strong>is not encrypted.</strong></li>
+  <li>The email you encrypt can be decrypted only if the addressee has her/his own private OpenPGP key and knows the passphrase that allows her/him to use it. Consequently, anyone in control of her/his private OpenPGP key could read the message you sent.</li>
+  <li>Encryption is illegal in some countries. Check whether this is the case in your country before you start using encryption, just to be aware.</li>
+</ul>
 
+<p><strong>Where to find more help</strong></p>
+
+<ul>
+  <li>Read introductions to <a href="https://ssd.eff.org/en/module/introduction-public-key-cryptography-and-pgp" target="_blank">public key cryptography</a> and to <a href="http://en.flossmanuals.net/basic-internet-security/ch027_mail-encryption-gpg/" target="_blank">mail encryption with OpenPGP</a>.</li>
+  <li><a href="https://securityinabox.org/en/chapter_7_4" target="_blank">Learn more about email encryption</a>.</li>
+  <li>Learn more about how to use OpenPGP in Thunderbird with <a href="https://enigmail.net/index.php/en/documentation/what-is-enigmail" target="_blank">Enigmail</a>.</li>
+  <li><a href="https://securityinabox.org/en/chapter_7_2" target="_blank">Tips on responding to suspected email surveillance</a>.</li>
+  <li><a href="http://www.cryptolaw.org/" target="_blank">Learn about encryption-related laws in each country</a>.</li>
+</ul>
+
+        
+          <h6><a href="/first-aid-jk/"><< Go back to Kit</a></h6>
+        
       </div>
     </div>
 
-    <script src="/js/jquery.js"></script>
-<script src="/js/foundation.js"></script>
-<script src="/js/foundation.interchange.js"></script>
-<script src="/js/foundation.topbar.js"></script>
+    <script src="/first-aid-jk/js/jquery.js"></script>
+<script src="/first-aid-jk/js/foundation.js"></script>
+<script src="/first-aid-jk/js/foundation.interchange.js"></script>
+<script src="/first-aid-jk/js/foundation.topbar.js"></script>
 <!-- Other JS plugins can be included here -->
-<script src="/js/scripts.min.js"></script>
+<script src="/first-aid-jk/js/scripts.min.js"></script>
 
 
   </body>

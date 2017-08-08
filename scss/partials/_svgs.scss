@@ -12,13 +12,54 @@
 	position: relative;
 }
 
-#svg1 {
-  height: 100vh;
+// #svg1 {
+//   height: 100vh;
+// }
+
+#kit-intro {
+  position: absolute;
+  width: 16em;
+  height: 14em;
+  left: 31%;
+  @media #{$medium-only} and (orientation: portrait) {
+    width: 11em;
+    height: 8em; 
+  }
+  @media #{$medium-only} and (orientation: landscape) {
+    width: 13em;
+    height: 9em; 
+  }
+}
+
+#kit {
+  @media #{$large-up} { 
+    width: 16em;
+    height: 12em;
+  }
+  @media #{$medium-only} and (orientation: portrait) {
+    width: 11em;
+    height: 8em; 
+  }
+  @media #{$medium-only} and (orientation: landscape) {
+    width: 13em;
+    height: 9em; 
+  }
+  background-image: url('../assets/img/kit_white_border.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  &:hover, &.kit-highlight {
+    background-image: url('../assets/img/kit_red_border.png');
+  }
+}
+
+#intro-text {
+  font-weight: bold;
 }
 
 .item {
  	position: absolute;
-	width: 6em;
+	width: 6.5em;
  	height: 6em;
   &.wide {
     figcaption {
@@ -35,10 +76,14 @@
       figcaption {
         background-color: $gray-lighter;
         border-radius: 5px;
-        line-height: 1.1;
+        line-height: 1.2;
         padding: rem-calc(7);
         text-align: center;
         cursor: pointer;
+        &.highlight {
+          background-color: $custom-black;
+          color: white;
+        }
    		}
     }
  	}

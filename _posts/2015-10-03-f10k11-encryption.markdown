@@ -1,30 +1,42 @@
 ---
 layout: post
 title:  "I need to send emails that only the recipient can read (encrypted)"
-ref: f-10
-lang: en
+ref: f10k11
+lang: English
 description: "Kit #11. I need to send emails that only the recipient can read"
 code: f-10
-icon: icon_f-01.png
+icon: icon_f10k11.png
 top: top-6-5
 left: left-10
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+##### How can I be sure that the contents of my emails are completely confidential?
 
-Jekyll also offers powerful support for code snippets:
+*You need to send sensitive information to your colleagues or friends, but you’ve heard that once messages leave your computer they travel through a strange no-man’s-land where you lose control over who might see your communication. You have a suspicion that someone is eavesdropping. If this happens when you’re sending sensitive information, you and the people you write to might get into serious trouble.*
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Once your email or chat message leaves your computer, it travels through many nodes or points along the way such as routers, servers and middle boxes where it can be intercepted, read and stored for future access. The internet’s underlying infrastructure was built for openness and interoperability and therefore unfortunately does not guarantee privacy.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+**What you should do**
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+You must make careful decisions about your email provider and the software you use if you want to make sure that your messages can’t be read by anyone other than the intended recipient.
+
+Encrypt your communication using OpenPGP. This will convert your messages into a format such that if an unauthorised person intercepts them, they’ll see a sequence of letters and numbers that won’t make any sense to them. Only those who have the intended recipient's passphrase will be able to revert it back to the original form. There are a few different ways of achieving this:
+
+1. Mozilla Thunderbird in combination with the Enigmail extension ([Windows](https://securityinabox.org/en/guide/thunderbird/windows/), [OS X](https://securityinabox.org/en/guide/thunderbird/mac/)). This is the preferred way of doing it as the encryption is done in a standalone mail client rather than in a browser which could be susceptible to more vulnerabilities.
+2. [Mailvelope](https://securityinabox.org/en/guide/mailvelope/web/) browser extension with your webmail. This method is the easiest way to use OpenPGP, if you are used to checking your email over the web, as you won't need to set up a separate desktop email client. However browsers are particular targets of malware and surveillance, so it is not advisable if you need to communicate very sensitive material.
+
+In each of the above methods, you will create two files -- a *keypair* -- consisting of what are known as your *public and private keys*. You will have to share your *public key* with anyone you wish to communicate with. (Read more about how PGP works [here](https://ssd.eff.org/en/module/introduction-public-key-cryptography-and-pgp)) .
+
+**Keep in mind**
+
++ The message body and attachments of an email message can be encrypted. However, **the other information that travels along with every email** (including the subject, addressees, sender, dates and servers through which the message travels) **is not encrypted.**
++ The email you encrypt can be decrypted only if the addressee has her/his own private OpenPGP key and knows the passphrase that allows her/him to use it. Consequently, anyone in control of her/his private OpenPGP key could read the message you sent.
++ Encryption is illegal in some countries. Check whether this is the case in your country before you start using encryption, just to be aware.
+
+**Where to find more help**
+
++ Read introductions to [public key cryptography](https://ssd.eff.org/en/module/introduction-public-key-cryptography-and-pgp){:target="_blank"} and to [mail encryption with OpenPGP](http://write.flossmanuals.net/basic-internet-security/introduction-to-mail-encryption-pgp/){:target="_blank"}.
++ [Learn more about email encryption](https://securityinabox.org/en/guide/secure-communication/#using-public-key-encryption-in-email){:target="_blank"}.
++ Learn more about how to use OpenPGP in Thunderbird with [Enigmail](https://enigmail.net/index.php/en/documentation/what-is-enigmail){:target="_blank"}.
++ [Tips on responding to suspected email surveillance](https://securityinabox.org/en/guide/secure-communication/#tips-on-responding-to-suspected-email-hacking-and-surveillance){:target="_blank"}.
++ [Learn about encryption-related laws in each country](http://www.cryptolaw.org/){:target="_blank"}.

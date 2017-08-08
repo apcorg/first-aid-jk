@@ -4,8 +4,9 @@
   {% include head.html %}
 
   <body>
-
+		{% if page.lang == 'en' %}
     {% include header.html %}
+    {% endif %}
 
     {{ content }}
 
